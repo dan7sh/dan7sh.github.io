@@ -1,6 +1,5 @@
 $(document).ready(function () {
-
-     $('.menu-toggler').on('click', function () {
+    $('.menu-toggler').on('click', function () {
         $(this).toggleClass('open');
         $('.top-nav').toggleClass('open');
     });
@@ -9,19 +8,18 @@ $(document).ready(function () {
         $('.menu-toggler').removeClass('open');
         $('.top-nav').removeClass('open');
     });
-
     
-    $(document).on("click", function(event){
-        var $trigger = $(".menu-toggler");
-        if($trigger !== event.target && !$trigger.has(event.target).length){
-            $('.menu-toggler').removeClass('open');
-        $('.top-nav').removeClass('open');
-        }               
+    $('nav a[href*="#"]').on('click', function () {
+      $('html, body').animate(keyframes= {
+          scrollTop: $($(this).attr('href')).offset().top - 100
+        }, options=2000); 
     });
 
-    setTimeout(function(){
-        document.querySelector('.alert').style.display = 'none';
-    },4500);
+    $('#up').on('click', function () {
+        $('html, body').animate(keyframes= {
+            scrollTop: 0
+          }, options=2000); 
+    });
 
     AOS.init({
         easing: 'ease',
@@ -31,6 +29,7 @@ $(document).ready(function () {
 
 });
 
+//Typing Effect
 
 const texts = ['websites!', 'games!', 'music!'];
 let count = 0;
@@ -54,7 +53,6 @@ let letter = '';
     setTimeout(type, 400)
 
 }());
-
 
 
 
