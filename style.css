@@ -11,8 +11,9 @@
   position: fixed;
     width: 100%;
     height: 100vh;
-    background: #fff;
-    overflow: hidden;
+    background: #000;
+    overflow-y: hidden;
+    overflow-x: hidden;
     justify-content: center;
     z-index: 999919;
 }
@@ -24,7 +25,7 @@
   width: 142px;
   height: 40px;
   margin: -20px 0 0 -71px;
-  background: #fff;
+  background: #000;
   filter: contrast(20);
   z-index: 999919;
 }
@@ -35,7 +36,7 @@
   top: 12px;
   left: 15px;
   filter: blur(4px);
-  background: #000;
+  background: #41c78d;
   border-radius: 50%;
   transform: translateX(0);
   animation: dot 2.8s infinite;
@@ -53,7 +54,7 @@
   height: 16px;
   margin-left: 16px;
   filter: blur(4px);
-  background: #000;
+  background: #41c78d;
   border-radius: 50%;
 }
 @-moz-keyframes dot {
@@ -105,11 +106,12 @@ html,body{
 html{
     font-size: 10px;
     font-family: 'Source Code Pro', sans-serif;
-    color: #000000;
+    color: #41c78d;
 }
 body{
     width: 100%;
     height: 100%;
+    background-color: #000;
 }
 
 
@@ -118,13 +120,13 @@ section{
 }
 a{
     text-decoration: none;
-    color: #eeeeee;
+    color: #41c78d;
 }
 p{
     font-family: 'Source Code Pro', sans-serif;
     font-size: 1.8rem;
     font-weight: 200;
-    line-height: 45px;
+    line-height: 35px;
 }
 img{
     width: 100%;
@@ -142,7 +144,7 @@ img{
 }
 .section-heading h1{
     font-size: 3.5rem;
-    color: rgb(88, 88, 88);
+    color: #41c78d;
     text-transform: uppercase;
     font-weight: 600;
     position: relative;
@@ -233,7 +235,7 @@ li{
     transform: rotate(-45deg);
 }
 .bar{
-    background: linear-gradient(to right, #ffffff, #000000);
+    background: linear-gradient(to right, #41c78d, #000000);
     width: 100%;
     height: 4px;
     border-radius: .8rem;
@@ -257,11 +259,11 @@ li{
     transform: rotate(-450deg) translateX(-.8rem);
 }
 .img-main-dan h6{
-  color: rgb(121, 121, 121);
+  color: #41c78d;
 }
 
 .about{
-    background-color: #ffffff56;
+    background-color: #1a1a1a;
 }
 .about .container{
     display: flex;
@@ -313,14 +315,13 @@ li{
 .icon-container{
     width: 7rem;
     height: 7rem;
-    border: 1.5px solid #ffffff;
-    background-color: #c5c5c531;
+
     margin-bottom: 2rem;
     display: flex;
 }
 
 .contact{
-  background-color: #ffffff56;
+  background-color: #1a1a1a;
 }
 .icon-contact-container{
     width: 5rem;
@@ -332,7 +333,7 @@ li{
 .copyright{
     width: 100%;
     text-align: center;
-    background-color: #d3d2d2;
+    background-color: #000000;
     padding: 2rem 0;
     position: relative;
 }
@@ -340,7 +341,7 @@ li{
     position: absolute;
     width: 5rem;
     height: 5rem;
-    background-color: rgb(219, 219, 219);
+    background-color: #1a1a1a;
     top: -2.5rem;
     right: 2rem;
     border-radius: 100%;
@@ -354,7 +355,7 @@ li{
 }
 @keyframes pulse{
     0%   {
-        box-shadow: 0 0 0 0 rgba(78, 78, 78, 0.99);
+        box-shadow: 0 0 0 0 #41c78d;
     }
     70%  {
         box-shadow: 0 0 0 2rem rgba(253, 87, 191, 0);
@@ -363,7 +364,6 @@ li{
         box-shadow: 0 0 0 0 rgba(253, 87, 191, 0);
     }
 }
-
 
 
 .img-main-dan{
@@ -404,7 +404,7 @@ form {
   }
   
   label, select, [placeholder] {
-    color: #555;
+    color: #41c78d;
   }
   
   label i {
@@ -412,18 +412,18 @@ form {
   }
   
   .field:focus-within label {
-    color: #000;
+    color: rgb(0, 0, 0);
     letter-spacing: 2px;
   }
   
   input, textarea, select {
-    background: rgba(255, 255, 255, 0.5);
+    background: rgb(236, 236, 236);
     border: none;
     border-radius: 4px;
     box-shadow: 0 8px 6px -6px #555;
   }
   input:focus, textarea:focus, select:focus {
-    background: white;
+    background: #000;
     box-shadow: none;
   }
   
@@ -443,7 +443,7 @@ form {
     width: 30%;
     margin: 16px 0 50px 0;
     padding: 8px 16px;
-    color: #fff;
+    color: #41c78d;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -456,7 +456,8 @@ form {
 
   footer img{
       margin: 0 auto;
-      width: 40px;
+      width: 30px;
+      height: 40px;
       align-content: center;
   }
 
@@ -486,7 +487,7 @@ form {
     font-size: 1rem;
     font-weight: 300;
     display: flex;
-    color: #000;
+    color: #41c78d;
   }
 
   .hello{
@@ -510,7 +511,7 @@ form {
       position: absolute;
       width: 1px;
       height: 95%;
-      border-right: 2px solid #000000;
+      border-right: 2px solid #41c78d;
       animation: blink 0.5s infinite ease;
   }
 @keyframes blink{
@@ -612,7 +613,7 @@ and (max-device-width : 1024px)
         font-size: 0.7rem;
         font-weight: 100;
         display: flex;
-        color: #000;
+        color: #41c78d;
       }
       .type-writing{
         margin-top: 0.5%;
@@ -639,7 +640,7 @@ and (max-width: 1366px)
         margin-bottom: 1%;
       }
       header h6{
-        color: #000000;
+        color: #41c78d;
         font-size: 1.5rem;
         font-weight: 300;
     }
@@ -690,7 +691,7 @@ and (max-device-width : 1007px)
         margin-bottom: 1%;
       }
       header h6{
-        color: #000000;
+        color: #41c78d;
         font-size: 1.5rem;
         font-weight: 300;
     }
