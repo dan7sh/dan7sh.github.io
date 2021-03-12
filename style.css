@@ -262,7 +262,7 @@ li{
 }
 
 .about{
-    background-color: #1a1a1ada;
+    background-color: #1a1a1ad7;
 }
 .about .container{
     display: flex;
@@ -320,7 +320,7 @@ li{
 }
 
 .contact{
-  background-color: #1a1a1ada;
+  background-color: #1a1a1ad7;
 }
 .icon-contact-container{
     width: 5rem;
@@ -340,7 +340,7 @@ li{
     position: absolute;
     width: 5rem;
     height: 5rem;
-    background-color: #1a1a1ada;
+    background-color: #1a1a1ad7;
     top: -2.5rem;
     right: 2rem;
     border-radius: 100%;
