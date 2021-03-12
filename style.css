@@ -262,7 +262,7 @@ li{
 }
 
 .about{
-    background-color: #1a1a1a;
+    background-color: #1a1a1ada;
 }
 .about .container{
     display: flex;
@@ -320,7 +320,7 @@ li{
 }
 
 .contact{
-  background-color: #1a1a1a;
+  background-color: #1a1a1ada;
 }
 .icon-contact-container{
     width: 5rem;
@@ -340,7 +340,7 @@ li{
     position: absolute;
     width: 5rem;
     height: 5rem;
-    background-color: #1a1a1a;
+    background-color: #1a1a1ada;
     top: -2.5rem;
     right: 2rem;
     border-radius: 100%;
@@ -454,10 +454,12 @@ form {
   }
 
   footer img{
-      margin: 0 auto;
-      width: 30px;
-      height: 40px;
-      align-content: center;
+    position: relative;
+    top: 12px;
+    margin: 0 auto;
+    width: 20px;
+    height: 20px;
+    align-content: center;
   }
 
   .text-mainpage{
