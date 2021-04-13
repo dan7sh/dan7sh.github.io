@@ -90,6 +90,7 @@ p {
   min-height: 500px;
   min-height: calc(100vh - 4rem - 4rem);
   padding-top: 300px;
+  padding-bottom: 20px;
   position: relative;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
