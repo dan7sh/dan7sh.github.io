@@ -97,8 +97,8 @@ p {
 }
 .section__header {
   position: absolute;
-  top: 50px;
-  left: 0;
+  top: 10px;
+  left: -20px;
   right: 0;
   height: 1050px;
   padding: 2rem;
@@ -125,7 +125,7 @@ p {
   line-height: 1;
 }
 .section__subtitle {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 .section__controls {
   display: -webkit-box;
