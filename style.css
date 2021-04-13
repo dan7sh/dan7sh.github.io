@@ -121,7 +121,7 @@ p {
 .section__title {
   font-size: 3.5rem;
   font-weight: 200;
-  margin-bottom: .9rem;
+  
   line-height: 1;
 }
 .section__subtitle {
@@ -143,6 +143,14 @@ p {
 .section__content {
   position: relative;
   z-index: 1;
+}
+.section__minimg{
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  top: 90px;
+  right: 10px;
 }
 @media screen and (min-width: 1024px) {
   .section {
