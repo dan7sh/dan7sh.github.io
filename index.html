@@ -13,7 +13,20 @@
 <link rel="stylesheet" href="./style.css">
 
 </head>
-<body>
+<body onload="myFunction()">
+    <!--Loader Page-->
+  
+    <div id="preloader">
+      <div class="gooey">
+          <span class="dot"></span>
+          <div class="dots">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+  </div>
+
 <!-- partial:index.partial.html -->
 <div class="app">
   <header class="header">
@@ -105,6 +118,16 @@
   
 
 </div>
+    <!--PreLoader-->
+    <script>  
+
+      var preloader = document.getElementById('preloader');
+
+      function myFunction(){
+          preloader.style.display = 'none';
+      }
+
+  </script>
 <!-- partial -->
   <script  src="./script.js"></script>
 
