@@ -2,12 +2,10 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index,follow">
-    <meta name="description" content="Danish (Student | Creative Enthusiast)">
     <meta property="og:type" content="website">
     <meta property="og:url" content="http://dan7sh.com/">
     <meta property="og:title" content="Danish (Student | Creative Enthusiast)">
@@ -16,131 +14,270 @@
     <title>Danish Ansari</title>
 
     <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!--Fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;400;500;600;700&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&family=Source+Code+Pro:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
-    <link rel="icon" href="/images/icon.png">
+
+    <link rel="icon" href="/Resources/main-icon.png">
 
 </head>
 
 <body onload="myFunction()">
 
-    <!--Loader page-->
-    <div id="preloader">
-        <div class="gooey">
-            <span class="dot"></span>
-            <div class="dots">
-                <span></span>
-                <span></span>
-                <span></span>
+    <header>
+        <div class="profile_pic">
+            <img src="/Resources/profile_pic.png" class="profile-pic" alt="Display Picture">
+        </div>
+        <div class="header_text">
+            <span class="main_text">Danish Ansari</span><br>
+            <span class="secondary_text">Student | Creative Enthusiast</span>
+        </div>
+    </header>
+
+    <main>
+        <div id="main_box">
+
+            <!--Education-->
+
+            <div class="box_content_education">
+                <h1>Education</h1><br>
+                <span class="education_text"><span class="emoji">📚 </span>&nbsp; Mechatronics ‘24 | NMIMS Mumbai</span>
             </div>
+
+            <!--Hobbies-->
+
+            <div class="box_content_hobbies">
+                <h1>Hobbies & Interests</h1><br>
+                <span class="emoji">💻 &nbsp;&nbsp;⚽ &nbsp;&nbsp;🏀 &nbsp;&nbsp; 🎮 &nbsp;&nbsp; 🎹 &nbsp;&nbsp; 📷
+                    &nbsp;&nbsp; 🏊 &nbsp;&nbsp; ‍</span>
+            </div>
+
+            <!--Technologies-->
+
+            <div class="box_content_technologies">
+                <h1>Technologies</h1><br>
+
+                <div class="tech_cards">
+
+                    <div class="skill">
+                        <div class="skill-icon">
+                            <img src="/Resources/skill_icons/icon_c.svg" alt="C">
+                        </div>
+                        <h1>C</h1>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill-icon">
+                            <img src="/Resources/skill_icons/icon_cpp.svg" alt="C++">
+                        </div>
+                        <h1>C++</h1>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill-icon">
+                            <img src="/Resources/skill_icons/icon_csharp.svg" alt="C#">
+                        </div>
+                        <h1>C#</h1>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill-icon">
+                            <img src="/Resources/skill_icons/icon_photoshop.svg" alt="Photoshop">
+                        </div>
+                        <h1>Photoshop</h1>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill-icon">
+                            <img src="/Resources/skill_icons/icon_html.svg" alt="html">
+                        </div>
+                        <h1>HTML</h1>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill-icon">
+                            <img src="/Resources/skill_icons/icon_css.svg" alt="CSS">
+                        </div>
+                        <h1>CSS</h1>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill-icon">
+                            <img src="/Resources/skill_icons/icon_autocad.svg" alt="AutoCad">
+                        </div>
+                        <h1>AutoCAD 2D/3D</h1>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill-icon">
+                            <img src="/Resources/skill_icons/icon_blender.svg" alt="Blender">
+                        </div>
+                        <h1>Blender</h1>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill-icon">
+                            <img src="/Resources/skill_icons/icon_unity.svg" alt="Unity 2D/3D">
+                        </div>
+                        <h1>Unity 2D/3D</h1>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill-icon">
+                            <img src="/Resources/skill_icons/icon_adobexd.svg" alt="Adobe XD">
+                        </div>
+                        <h1>Adobe XD</h1>
+                    </div>
+
+                </div>
+
+                <p class="tech_text">
+                    This is definitely not the end!
+                </p>
+            </div>
+
+            <!--Projects-->
+
+
+            <div class="box_content_projects">
+                <h1>My Projects</h1><br>
+
+                <div class="project_cards">
+
+                    <div class="project">
+                        <div id="slider">
+                            <figure>
+                                <img src="/Resources/may_sc/unity_hacker/hacker_1.png" alt="">
+                                <img src="/Resources/may_sc/unity_hacker/hacker_3.png" alt="">
+                                <img src="/Resources/may_sc/unity_hacker/hacker_4.png" alt="">
+                            </figure>
+                        </div>
+                        <h1>Terminal Hacker</h1><br>
+                        <p class="project_text">
+                            A password guessing game where users have to guess the jumbled words. <br>
+                            Skills used: <br>
+                            • Unity 2D <br>
+                            • C# <br>
+                            • Photoshop <br>
+                        </p>
+                    </div>
+
+                    <div class="project">
+                        <div id="slider">
+                            <figure>
+                                <img src="/Resources/may_sc/unity_runner/runner_1.png" alt="">
+                                <img src="/Resources/may_sc/unity_runner/runner_2.png" alt="">
+                                <img src="/Resources/may_sc/unity_runner/runner_3.png" alt="">
+                            </figure>
+                        </div>
+                        <h1>Cube Runner</h1><br>
+                        <p class="project_text">
+                            A running game with 3D cubes having collision detection and real-world physics. <br>
+                            Skills used: <br>
+                            • Unity 3D <br>
+                            • C# <br>
+                            • Photoshop <br>
+                        </p>
+                    </div>
+
+                    <div class="project">
+                        <div id="slider">
+                            <figure>
+                                <img src="/Resources/may_sc/autocad/autocad_1.png" alt="">
+                                <img src="/Resources/may_sc/autocad/autocad_2.png" alt="">
+                                <img src="/Resources/may_sc/autocad/autocad_3.png" alt="">
+                            </figure>
+                        </div>
+                        <h1>AutoCAD 2D/3D</h1><br>
+                        <p class="project_text">
+                            Made CAD drawings of intermediate to complex 2D and 3D objects. <br>
+                            Skills used: <br>
+                            • AutoCAD 2D/3D <br>
+                            • Engineering Drawing <br>
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
         </div>
-    </div>
+    </main>
 
-    <article class="section">
+    <footer>
 
-        <header class="section_header">
-            <h1 class="section_title">
-                Danish Ansari
-            </h1>
-            <!--Add Profile Image-->
-            <img src="/images/twitch-dp.PNG" alt="" class="section_miniimg">
-            <p class="marquee section_subtitle">
-                <!--Add Mini Description-->
-                <span>
-                    📚  NMIMS Mechatronics '24 <br>
-                    💻 ⚽ 🏀 🎮 🎹 <br>
-                    Check out my socials 👇
-                </span>
-            </p>
-        </header>
+        <!--Email-->
 
-        <div class="section_content">
-            <ul class="boxgrid">
+        <form method="post" autocomplete="off" name="google-sheet" onsubmit="return validateForm(); ">
+            <div class="field">
+                <label for="email"></label>
+                <input name="EMAIL" id="email" type="text" class="form-control" placeholder="email@domain.com" value=""
+                    required>
+            </div>
+            <button type="submit" name="submit" class="btnSubmit" value="SUBMIT"><img src="/Resources/tick.png"
+                    alt=""></button>
+        </form>
 
-                <li class="boxgrid__item">
-                    <a href="https://open.spotify.com/track/5yY9lUy8nbvjM1Uyo1Uqoc?si=4a637c3eff15443f"
-                        class="box box--image" style="background:#fff;" target="_blank" rel="noopener noreferrer">
-                        <div class="album-art"></div>
-                        <img src="https://media.giphy.com/media/3o72FbPweVVttIxHTG/giphy.gif" class="box__img" alt="">
-                    </a>
-                </li>
+        <!--Social Media-->
 
-                <li class="boxgrid__item">
-                    <a href="https://www.linkedin.com/in/danish-ansari-1295691a6/" class="box box--image"
-                        target="_blank" rel="noopener noreferrer">
-                        <img src="https://cdn.dribbble.com/users/147003/screenshots/1541997/linkedin_400_x_300_comp.gif"
-                            class="box__img" alt="" />
-                    </a>
-                </li>
+        <div class="social_media">
 
-                <li class="boxgrid__item">
-                    <a href="https://www.instagram.com/dan3sh_/" class="box box--image" target="_blank"
-                        rel="noopener noreferrer">
-                        <img src="https://media.giphy.com/media/uo6rcjwHSAFsQ/giphy.gif" class="box__img" alt="" />
-                    </a>
-                </li>
+            <div class="social_icons">
+                <a href="https://www.linkedin.com/in/danish-ansari-1295691a6/" target="_blank"
+                    rel="noopener noreferrer"><img src="/Resources/socialmedia_icons/icon_linkedin.svg" alt=""></a>
+            </div>
 
-                <!--Add Github in this-->
-                <li class="boxgrid__item">
-                    <a href="https://github.com/dan7sh" class="box box--image" target="_blank" rel="noopener noreferrer">
-                        <img src="https://rapidapi.com/blog/wp-content/uploads/2017/01/octocat.gif" class="box__img"
-                            alt="" />
-                    </a>
-                </li>
+            <div class="social_icons">
+                <a href="https://www.instagram.com/dan3sh_/" target="_blank" rel="noopener noreferrer"><img
+                        src="/Resources/socialmedia_icons/icon_instagram.svg" alt=""></a>
+            </div>
 
-                <li class="boxgrid__item">
-                    <a href="https://www.snapchat.com/add/dan4sh" class="box box--image" target="_blank"
-                        rel="noopener noreferrer">
-                        <img src="https://media.giphy.com/media/hQjUn3eHihczu/giphy.gif" class="box__img" alt="" />
-                    </a>
-                </li>
+            <div class="social_icons">
+                <a href="https://twitter.com/dan3sh_" target="_blank" rel="noopener noreferrer"><img
+                        src="/Resources/socialmedia_icons/icon_twitter.svg" alt=""></a>
+            </div>
 
-                <li class="boxgrid__item">
-                    <a href="https://twitter.com/dan7sh_" class="box box--image" style="background:#66AEE5;"
-                        target="_blank" rel="noopener noreferrer">
-                        <img src="https://media.giphy.com/media/SMKiEh9WDO6ze/giphy.gif" class="box__img" alt="" />
-                    </a>
-                </li>
+            <div class="social_icons">
+                <a href="https://www.facebook.com/profile.php?id=100067027353072" target="_blank"
+                    rel="noopener noreferrer"><img src="/Resources/socialmedia_icons/icon_facebook.svg" alt=""></a>
+            </div>
 
-                <li class="boxgrid__item boxgrid__item--wide">
-                    <a href="https://www.twitch.tv/dan7sh_" class="box box--image" target="_blank"
-                        rel="noopener noreferrer">
-                        <img src="https://i.pinimg.com/originals/d4/08/78/d408784903fc80d260ee5bdfe20bcae3.gif"
-                            class="box__img" alt="" />
-                    </a>
-                </li>
+            <div class="social_icons">
+                <a href="https://www.snapchat.com/add/dan4sh" target="_blank" rel="noopener noreferrer"><img
+                        src="/Resources/socialmedia_icons/icon_snapchat.svg" alt=""></a>
+            </div>
 
-                <li class="boxgrid__item">
-                    <a href="mailto:aaansaridan@gmail.com" class="box box--image" style="background-color:#ffffff;"
-                        target="_blank" rel="noopener noreferrer">
-                        <img src="http://cdn.lowgif.com/medium/6d44bffc318efac0-.gif" class="box__img" alt="" />
-                    </a>
-                </li>
+            <div class="social_icons">
+                <a href="https://www.twitch.tv/dan7sh_" target="_blank" rel="noopener noreferrer"><img
+                        src="/Resources/socialmedia_icons/icon_twitch.svg" alt=""></a>
+            </div>
 
-                <li class="boxgrid__item">
-                    <a href="https://www.facebook.com/profile.php?id=100067027353072" class="box box--image"
-                        target="_blank" rel="noopener noreferrer">
+            <div class="social_icons">
+                <a href="https://discord.gg/yMWkjZRf" target="_blank" rel="noopener noreferrer"><img
+                        src="/Resources/socialmedia_icons/icon_discord.svg" alt=""></a>
+            </div>
 
-                        <img src="https://cdn.dribbble.com/users/427761/screenshots/2830628/facebook.gif"
-                            class="box__img" alt="">
-                    </a>
-                </li>
+            <div class="social_icons">
+                <a href="https://music.apple.com/in/playlist/d7/pl.u-AkAmPl3cxLlLvqv" target="_blank"
+                    rel="noopener noreferrer"><img src="/Resources/socialmedia_icons/icon_itunes.svg" alt=""></a>
+            </div>
 
-                <li class="boxgrid__item boxgrid__item--wide">
-                    <a href="https://discord.gg/ScHrv3MM" class="box box--image" target="_blank"
-                        rel="noopener noreferrer">
-                        <img src="https://thumbs.gfycat.com/AggravatingSpitefulHapuku-max-1mb.gif"
-                        class="box__img" alt="" />
-                    </a>
-                </li>
-
-            </ul>
         </div>
 
-    </article>
+        <!--Footer Text-->
+
+        <div class="footer_text">
+            <p>made with <span class="footer_emoji">♥️</span>&nbsp; by Danish</p><br>
+            <p>Danish Ansari © 2021</p>
+        </div>
+
+    </footer>
+
+    <!--Scripts-->
 
     <!--PreLoader-->
     <script>
@@ -151,7 +288,72 @@
         }
     </script>
 
-    <script src="/main.js"></script>
+    <!--Form Input Validation-->
+    <script type="text/javascript">
+        function validateName() {
+            var name = document.getElementById('name').value;
+            if (name.length == 0) {
+                alert("Name can't be blank");
+                return false;
+
+            }
+            if (!name.match(/^[a-zA-Z]{3,}(?: [a-zA-Z]+){0,2}$/)) {
+                alert("Please enter your correct name!"); //Validation Message
+                return false;
+            }
+            return true;
+        }
+
+        function validateEmail() {
+
+            var email = document.getElementById('email').value;
+            if (email.length == 0) {
+                alert("Email can't be blank!"); //Validation Message
+                return false;
+
+            }
+
+            if (!email.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
+                alert("Please enter a correct email address"); //Validation Message
+                return false;
+
+            }
+
+            return true;
+
+        }
+
+
+        function validateForm() {
+            if (!validateName() || !validateEmail()) {
+
+                alert("Form not submitted"); //Validation Message
+                return false;
+            } else {
+                submitted = true;
+                return true;
+            }
+        }
+    </script>
+
+    <script>
+        const scriptURL =
+            'https://script.google.com/macros/s/AKfycbz5L9uxeABUecJ0eWGyVwohOJ7BU0Vh1gcGnUwjmn65nlJ3faRLJdPBzSyv-WRrPI-O/exec'
+        const form = document.forms['google-sheet']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, {
+                    method: 'POST',
+                    body: new FormData(form)
+                })
+                .then(response => alert("Thanks for Contacting me... I Will Get Back to You soon!"))
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="script.js"></script>
 
 </body>
 
