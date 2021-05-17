@@ -137,24 +137,22 @@ header{
     left: 17%;   
 }
 
-.header_text{
-    position: relative;
-    left: 37%;
-    top: -86%;   
-}
-
 .main_text{
     font-family: 'Montserrat', sans-serif;
     font-size: 75px;
     font-weight: 500;
-    
+    position: absolute;
+    left: 35%;
+    top: 7%;
 }
 
 .secondary_text{
     font-family: 'Source Code Pro', monospace;
     font-size: 35px;
     font-weight: 300;
-    
+    position: absolute;
+    left: 35.5%;
+    top: 42%;
 }
 
 #main_box{
@@ -405,22 +403,19 @@ input{
         left: 34%;   
     }   
 
-    .header_text{
-        position: relative;
-        left: 8%;
-        top: -8%;   
-    }
-
     .main_text{
         font-size: 45px;
         font-weight: 500;
+        left: 8%;
+        top: 40%;
     }
     
     .secondary_text{
         font-size: 15px;
         font-weight: 300;
         position: absolute;
-        left: 7%;
+        left: 17%;
+        top: 61%;
     }
 
     #main_box{
@@ -588,23 +583,21 @@ and (max-device-width : 1007px)
         height: 20%;
         width: 20%;
         left: 7%;   
-    } 
-    
-    .header_text{
-        position: relative;
-        left: 31%;
-        top: -45%;   
-    }
+    }   
 
     .main_text{
         font-size: 60px;
         font-weight: 500;
+        left: 30%;
+        top: 7%;
     }
     
     .secondary_text{
         font-size: 25px;
         font-weight: 200;
         position: absolute;
+        left: 30.5%;
+        top: 26%;
     }
 
     #main_box{
@@ -766,19 +759,12 @@ and (min-device-width : 1024px)
 and (max-device-width : 1366px)  
 {
 
-    .header_text{
-        position: relative;
-        left: 35%;
-        top: -55%;   
-    }
-
-    .main_text{
-        font-size: 75px;
-    }
-
     .secondary_text{
-        font-size: 28px;
+        font-size: 25px;
         font-weight: 200;
+        position: absolute;
+        left: 35.5%;
+        top: 26%;
     }
 
     .profile-pic{
