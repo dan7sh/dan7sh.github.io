@@ -137,15 +137,16 @@ header{
     left: 17%;   
 }
 
-
+.header_text{
+    position: relative;
+    left: 37%;
+    top: -86%;   
+}
 
 .main_text{
     font-family: 'Montserrat', sans-serif;
     font-size: 75px;
     font-weight: 500;
-    position: relative;
-    left: 36%;
-    top: -210px;
     
 }
 
@@ -153,9 +154,7 @@ header{
     font-family: 'Source Code Pro', monospace;
     font-size: 35px;
     font-weight: 300;
-    position: relative;
-    left: 36.5%;
-    top: -220px;
+    
 }
 
 #main_box{
@@ -406,11 +405,15 @@ input{
         left: 34%;   
     }   
 
+    .header_text{
+        position: relative;
+        left: 8%;
+        top: -8%;   
+    }
+
     .main_text{
         font-size: 45px;
         font-weight: 500;
-        top: -20px;
-        left: 7%;
     }
     
     .secondary_text{
