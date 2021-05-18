@@ -343,16 +343,14 @@ form div, form label, form input{
 }
 
 button{
-    background-color: white;
-    border-radius: 50%;
+    background-color: rgb(12, 12, 12);
+    border-radius: 30%;
     width: 50px;
     height: 50px;
     border: none;
-}
-
-button img{
-    width: 30px;
-    height: 30px;
+    font-family: 'Montserrat',sans-serif;
+    color: #CED6DF;
+    font-size: 10px;
 }
 
 label, input{
@@ -538,11 +536,7 @@ input{
         width: 40px;
         height: 40px;
         border: none;
-    }
-    
-    button img{
-        width: 20px;
-        height: 20px;
+        font-size: 8px;
     }
     
     input{
