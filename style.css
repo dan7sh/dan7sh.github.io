@@ -136,11 +136,11 @@ img {
     justify-content: center;
 }
 
-.dp img{
+.dp img {
     width: 20rem;
 }
 
-.header_text{
+.header_text {
     font-family: 'Montserrat', sans-serif;
     font-size: 7.5rem;
     font-weight: 300;
@@ -401,7 +401,7 @@ input {
         margin-top: -1rem;
     }
 
-    .dp img{
+    .dp img {
         width: 10rem;
     }
 
@@ -410,7 +410,7 @@ input {
         margin-bottom: 5rem;
     }
 
-    .header_text p{
+    .header_text p {
         font-size: 3.4rem;
         font-weight: 300;
     }
@@ -633,7 +633,7 @@ input {
         margin-top: 1rem;
     }
 
-    .dp img{
+    .dp img {
         width: 15rem;
     }
 
@@ -643,7 +643,7 @@ input {
         margin-bottom: 5rem;
     }
 
-    .header_text p{
+    .header_text p {
         font-size: 5rem;
         font-weight: 300;
     }
@@ -864,7 +864,7 @@ input {
         margin-top: 1rem;
     }
 
-    .dp img{
+    .dp img {
         width: 20rem;
     }
 
@@ -874,7 +874,7 @@ input {
         margin-bottom: 5rem;
     }
 
-    .header_text p{
+    .header_text p {
         font-size: 7rem;
         font-weight: 300;
     }
@@ -1083,10 +1083,7 @@ input {
 
 /* ----------- NON Retina Screens ----------- */
 
-@media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 1) { 
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
 
     .header {
         display: flex;
@@ -1100,7 +1097,7 @@ input {
         margin-top: 1rem;
     }
 
-    .dp img{
+    .dp img {
         width: 20rem;
     }
 
@@ -1110,7 +1107,7 @@ input {
         margin-bottom: 5rem;
     }
 
-    .header_text p{
+    .header_text p {
         font-size: 7rem;
         font-weight: 300;
     }
@@ -1318,11 +1315,7 @@ input {
 }
 
 /* ----------- Retina Screens ----------- */
-@media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (min-resolution: 192dpi) { 
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
 
     .header {
         display: flex;
@@ -1336,7 +1329,7 @@ input {
         margin-top: 1rem;
     }
 
-    .dp img{
+    .dp img {
         width: 20rem;
     }
 
@@ -1346,7 +1339,7 @@ input {
         margin-bottom: 5rem;
     }
 
-    .header_text p{
+    .header_text p {
         font-size: 7rem;
         font-weight: 300;
     }
