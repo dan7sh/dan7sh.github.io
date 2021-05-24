@@ -191,6 +191,10 @@ img {
     font-size: 3rem;
     font-weight: 300;
     line-height: 6rem;
+    display: grid;
+    grid-template-columns: repeat(3, 5rem);
+    grid-gap: 2rem;
+    margin-top: 1rem;
 }
 
 .technology_heading {
@@ -430,6 +434,7 @@ input {
     .education h1 {
         font-size: 2.5rem;
         font-weight: 400;
+        margin-bottom: 1rem;
     }
 
     .education_text {
@@ -454,7 +459,12 @@ input {
         font-size: 3rem;
         font-weight: 300;
         line-height: 5rem;
+        grid-template-columns: repeat(3, 4rem);
+        grid-gap: 2rem;
+        margin-top: 1rem;
     }
+
+
 
     .technology_heading {
         margin-top: 9rem;
@@ -466,7 +476,7 @@ input {
     .technology_card {
         position: relative;
         width: 10rem;
-        height: 12rem;
+        height: 13rem;
         border-radius: 3rem;
     }
 
@@ -664,6 +674,7 @@ input {
     .education h1 {
         font-size: 2.5rem;
         font-weight: 400;
+        margin-bottom: 1rem;
     }
 
     .education_text {
@@ -895,6 +906,7 @@ input {
     .education h1 {
         font-size: 3rem;
         font-weight: 400;
+        margin-bottom: 1rem;
     }
 
     .education_text {
