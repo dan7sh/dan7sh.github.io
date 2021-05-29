@@ -383,11 +383,12 @@
 
         form.addEventListener('submit', e => {
             e.preventDefault()
+            e.myFunction()
             fetch(scriptURL, {
                     method: 'POST',
                     body: new FormData(form)
                 })
-                .then(response => alert("Thanks for Contacting me... I Will Get Back to You soon!"))
+                .then(response => alert("Thanks for Contacting me! I Will Get Back to You soon!"))
                 .catch(error => console.error('Error!', error.message))
         })
     </script>
