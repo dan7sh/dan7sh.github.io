@@ -3,172 +3,181 @@
 
 <head>
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://dan7sh.com/">
+    <meta property="og:title" content="Danish (Student | Creative Enthusiast)">
+    <meta property="og:description"
+        content="I’m Danish and I am currently a second year student at MPTSME Mumbai, pursuing Mechatronics Engineering. I make websites, games and music.">
 
     <title>Danish Ansari</title>
 
     <link rel="stylesheet" href="/style.css">
-    <link rel="icon" href="">
+
+    <link rel="icon" href="/Resources/icon_dan.png">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&family=Source+Code+Pro:wght@200;300;400;500;600;700&display=swap"
         rel="stylesheet">
 
 </head>
 
-<body>
+<body onload="myFunction()">
 
-    <!--Header Section-->
+    <!--Loader Page-->
 
-    <header>
-        <div class="header_text_text">
-            <h1 class="header_text">Danish Ansari</h1>
-        </div>
-        <div class="header_navbar">
-            <ul class="navbar">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Technologies</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-    </header>
-
-    <!--About Section-->
-
-    <div class="about">
-
-        <div class="about_text about_card">
-            <div class="profile_pic">
-                <img src="/Resources/profile-pic.png" alt="">
-            </div>
-            <div class="about_text_text">
-                I’m <span class="about_text_danish">danish</span>, a student pursuing Mechatronics Engineering in NMIMS
-                Mumbai. I’m interested in front-end web development, UI Design, C++, Music and solving real world
-                problems using programming.
+    <div id="preloader">
+        <div class="gooey">
+            <span class="dot"></span>
+            <div class="dots">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
         </div>
-
-        <div id="map" class="map_container about_card"></div>
-
-        <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0b7pglCXISmIXkUbIoz1jg3svb1nlP88&callback=initMap&libraries=&v=weekly"
-      async
-    ></script>
-      
-
-        <div class="hobbies about_card">
-            <ul class="hobbies_text">
-                <li>💻 </li>
-                <li>⚽ </li>
-                <li>🏀 </li>
-                <li>🎮 </li>
-                <li>🎹 </li>
-                <li>🎥 </li>
-            </ul>
-        </div>
-
     </div>
 
-    <!--Technologies Section-->
-
-    <div class="nav_navbar">
-        <ul class="navbar">
-            <li><a href="#">Technologies</a></li>
-        </ul>
+    <div class="header">
+        <div class="dp" data-aos="zoom-in">
+            <img src="/Resources/profile_pic.png" alt="">
+        </div>
+        <div class="header_text" data-aos="zoom-in">
+            <p>Danish Ansari</p>
+        </div>
     </div>
 
-    <div class="technology">
+    <main id="main_box">
 
-        <div class="technology_card">
-            <div class="technology_img">
-                <img src="/Resources/Skills/icon_c.svg" alt="">
-            </div>
+        <div class="education" data-aos="zoom-in">
+            <h1>Education</h1>
+            <span class="education_text">
+                <span class="education_emoji">📚&nbsp;</span> Mechatronics '24 | NMIMS
+            </span>
         </div>
 
-        <div class="technology_card">
-            <div class="technology_img">
-                <img src="/Resources/Skills/icon_cpp.svg" alt="">
-            </div>
+        <div class="hobbies">
+            <h1>Hobbies & Interests</h1>
+            <span class="hobbies_text">
+                <div class="hobbies_emoji" data-aos="zoom-in">💻</div>
+                <div class="hobbies_emoji" data-aos="zoom-in">⚽</div>
+                <div class="hobbies_emoji" data-aos="zoom-in">🏀</div>
+                <div class="hobbies_emoji" data-aos="zoom-in">🎮</div>
+                <div class="hobbies_emoji" data-aos="zoom-in">🎹</div>
+                <div class="hobbies_emoji" data-aos="zoom-in">📷</div>
+            </span>
         </div>
 
-        <div class="technology_card">
-            <div class="technology_img">
-                <img src="/Resources/Skills/icon_csharp.svg" alt="">
-            </div>
+        <div class="technology_heading" data-aos="zoom-in">
+            Technologies
         </div>
 
-        <div class="technology_card">
-            <div class="technology_img">
-                <img src="/Resources/Skills/icon_react.svg" alt="">
+        <div class="technology">
+
+            <div class="technology_card" data-aos="flip-down">
+                <img src="/Resources/skill_icons/icon_c.svg" alt="">
+                <span class="tecnology_text">
+                    C
+                </span>
             </div>
+
+            <div class="technology_card" data-aos="flip-down">
+                <img src="/Resources/skill_icons/icon_cpp.svg" alt="">
+                <span class="tecnology_text">
+                    C++
+                </span>
+            </div>
+
+            <div class="technology_card" data-aos="flip-down">
+                <img src="/Resources/skill_icons/icon_csharp.svg" alt="">
+                <span class="tecnology_text">
+                    C#
+                </span>
+            </div>
+
+            <div class="technology_card" data-aos="flip-down">
+                <img src="/Resources/skill_icons/icon_python.svg" alt="">
+                <span class="tecnology_text">
+                    PYTHON
+                </span>
+            </div>
+
+            <div class="technology_card" data-aos="flip-down">
+                <img src="/Resources/skill_icons/icon_html.svg" alt="">
+                <span class="tecnology_text">
+                    HTML
+                </span>
+            </div>
+
+            <div class="technology_card" data-aos="flip-down">
+                <img src="/Resources/skill_icons/icon_css.svg" alt="">
+                <span class="tecnology_text">
+                    CSS
+                </span>
+            </div>
+
+            <div class="technology_card" data-aos="flip-down">
+                <img src="/Resources/skill_icons/icon_unity.svg" alt="">
+                <span class="tecnology_text">
+                    UNITY
+                </span>
+            </div>
+
+            <div class="technology_card" data-aos="flip-down">
+                <img src="/Resources/skill_icons/icon_blender.svg" alt="">
+                <span class="tecnology_text">
+                    BLENDER
+                </span>
+            </div>
+
+            <div class="technology_card" data-aos="flip-down">
+                <img src="/Resources/skill_icons/icon_photoshop.svg" alt="">
+                <span class="tecnology_text">
+                    PHOTOSHOP
+                </span>
+            </div>
+
+            <div class="technology_card" data-aos="flip-down">
+                <img src="/Resources/skill_icons/icon_autocad.svg" alt="">
+                <span class="tecnology_text">
+                    AUTOCAD
+                </span>
+            </div>
+
+            <div class="technology_card" data-aos="flip-down">
+                <img src="/Resources/skill_icons/icon_git.svg" alt="">
+                <span class="tecnology_text">
+                    GIT
+                </span>
+            </div>
+
+            <div class="technology_card" data-aos="flip-down">
+                <img src="/Resources/skill_icons/icon_adobexd.svg" alt="">
+                <span class="tecnology_text">
+                    ADOBE XD
+                </span>
+            </div>
+
         </div>
 
-        <div class="technology_card">
-            <div class="technology_img">
-                <img src="/Resources/Skills/icon_html.svg" alt="">
-            </div>
+        <div class="tecnology_additional_text" data-aos="zoom-out">
+            This is just the start of the journey!
         </div>
 
-        <div class="technology_card">
-            <div class="technology_img">
-                <img src="/Resources/Skills/icon_css.svg" alt="">
-            </div>
+        <div class="project_heading" data-aos="zoom-in">
+            Projects
         </div>
 
-        <div class="technology_card">
-            <div class="technology_img">
-                <img src="/Resources/projectIcons/unity.svg">
-            </div>
-        </div>
+        <div class="project">
 
-        <div class="technology_card">
-            <div class="technology_img">
-                <img src="/Resources/Skills/icon_blender.svg" alt="">
-            </div>
-        </div>
+            <!--Terminal Hacker-->
 
-        <div class="technology_card">
-            <div class="technology_img">
-                <img src="/Resources/Skills/icon_photoshop.svg" alt="">
-            </div>
-        </div>
-
-        <div class="technology_card">
-            <div class="technology_img">
-                <img src="/Resources/Skills/icon_github.svg" alt="">
-            </div>
-        </div>
-
-        <div class="technology_card">
-            <div class="technology_img">
-                <img src="/Resources/Skills/icon_adobexd.svg" alt="">
-            </div>
-        </div>
-
-        <div class="technology_card">
-            <div class="technology_img">
-                <img src="/Resources/Skills/icon_autocad.svg" alt="">
-            </div>
-        </div>
-
-    </div>
-
-    <!--Projects Section-->
-
-    <div class="nav_navbar">
-        <ul class="navbar">
-            <li><a href="#">Projects</a></li>
-        </ul>
-    </div>
-
-    <div class="projects">
-
-        <div class="project_card">
-            <div class="project_img">
-                <!--Slider-->
+            <div class="project_card" data-aos="fade-right">
                 <div id="slider">
                     <figure>
                         <img src="/Resources/may_sc/unity_hacker/hacker_1.png" alt="">
@@ -176,18 +185,19 @@
                         <img src="/Resources/may_sc/unity_hacker/hacker_4.png" alt="">
                     </figure>
                 </div>
-                <h1>Terminal Hacker</h1>
-                <ul class="project_icons">
-                    <li><img src="/Resources/projectIcons/unity.svg" alt=""></li>
-                    <li><img src="/Resources/projectIcons/csharp.svg" alt=""></li>
-                    <li><img src="/Resources/projectIcons/adobephotoshop.svg" alt=""></li>
-                </ul>
+                <h1>Terminal Hacker</h1><br>
+                <p class="project_text">
+                    A password guessing game where users have to guess the jumbled words. <br>
+                    Skills used: <br>
+                    • Unity 2D <br>
+                    • C# <br>
+                    • Photoshop <br>
+                </p>
             </div>
-        </div>
 
-        <div class="project_card">
-            <div class="project_img">
-                <!--Slider-->
+            <!--Cube Runner-->
+
+            <div class="project_card" data-aos="fade-left">
                 <div id="slider">
                     <figure>
                         <img src="/Resources/may_sc/unity_runner/runner_1.png" alt="">
@@ -195,18 +205,19 @@
                         <img src="/Resources/may_sc/unity_runner/runner_3.png" alt="">
                     </figure>
                 </div>
-                <h1>Cube Runner</h1>
-                <ul class="project_icons">
-                    <li><img src="/Resources/projectIcons/unity.svg" alt=""></li>
-                    <li><img src="/Resources/projectIcons/csharp.svg" alt=""></li>
-                    <li><img src="/Resources/projectIcons/adobephotoshop.svg" alt=""></li>
-                </ul>
+                <h1>Cube Runner</h1><br>
+                <p class="project_text">
+                    A running game with 3D cubes having collision detection and real-world physics. <br>
+                    Skills used: <br>
+                    • Unity 3D <br>
+                    • C# <br>
+                    • Photoshop <br>
+                </p>
             </div>
-        </div>
 
-        <div class="project_card">
-            <div class="project_img">
-                <!--Slider-->
+            <!--AutoCAD-->
+
+            <div class="project_card" data-aos="fade-right">
                 <div id="slider">
                     <figure>
                         <img src="/Resources/may_sc/autocad/autocad_1.png" alt="">
@@ -214,102 +225,175 @@
                         <img src="/Resources/may_sc/autocad/autocad_3.png" alt="">
                     </figure>
                 </div>
-                <h1>AutoCAD</h1>
-                <ul class="project_icons">
-                    <li><img src="/Resources/projectIcons/autodesk.svg" alt=""></li>
-                </ul>
+                <h1>AutoCAD 2D/3D</h1><br>
+                <p class="project_text">
+                    Made CAD drawings of intermediate to complex 2D and 3D objects. <br>
+                    Skills used: <br>
+                    • AutoCAD 2D/3D <br>
+                    • Engineering Drawing <br>
+                </p>
             </div>
+
         </div>
 
-    </div>
+    </main>
 
-    <!--Contact-->
-
-    <div class="nav_navbar">
-        <ul class="navbar">
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </div>
-
-    <div class="contact">
-
-        <div class="contact_card">
-            <div class="contact_img">
-                <img src="/Resources/Socials/instagram.svg" alt="">
-            </div>
-        </div>
-
-        <div class="contact_card">
-            <div class="contact_img">
-                <img src="/Resources/Socials/linkedin.svg" alt="">
-            </div>
-        </div>
-
-        <div class="contact_card">
-            <div class="contact_img">
-                <img src="/Resources/Socials/twitter.svg" alt="">
-            </div>
-        </div>
-
-        <div class="contact_card">
-            <div class="contact_img">
-                <img src="/Resources/Socials/snapchat.svg" alt="">
-            </div>
-        </div>
-
-        <div class="contact_card">
-            <div class="contact_img">
-                <img src="/Resources/Socials/github.svg" alt="">
-            </div>
-        </div>
-
-        <div class="contact_card">
-            <div class="contact_img">
-                <img src="/Resources/Socials/facebook.svg" class="icon_facebook">
-            </div>
-        </div>
-
-        <div class="contact_card">
-            <div class="contact_img">
-                <img src="/Resources/Socials/twitch.svg" alt="">
-            </div>
-        </div>
-
-        <div class="contact_card">
-            <div class="contact_img">
-                <img src="/Resources/Socials/discord.svg" alt="">
-            </div>
-        </div>
-
-    </div>
-
-    <!--Footer-->
 
     <footer>
+        <!--Email-->
 
-        <div class="footer_content">
+        <form method="post" autocomplete="off" name="google-sheet" onsubmit="return validateForm(); ">
+            <div class="field">
+                <label for="email"></label>
+                <input name="EMAIL" id="email" type="text" class="form-control" placeholder="Email Address" value=""
+                    required>
+            </div>
+            <button type="submit" name="submit" class="btnSubmit" value="SUBMIT">SEND</button>
+        </form>
 
-            <form method="post" autocomplete="off" name="google-sheet" onsubmit="return validateForm(); ">
-                <div class="field">
-                    <label for="email"></label>
-                    <input name="EMAIL" id="email" type="text" class="form-control" placeholder="Email Address" value=""
-                        required>
-                </div>
-                <button type="submit" name="submit" class="btnSubmit" value="SUBMIT">SEND</button>
-            </form>
+        <!--Social Media-->
 
-            <!--Footer Text-->
+        <div class="social_media">
 
-            <div class="footer_text">
-                ✌<br>
-                <p>Copyright © Danish Ansari 2021</p>
+            <div class="social_icons">
+                <a href="https://www.linkedin.com/in/danish-ansari-1295691a6/" target="_blank"
+                    rel="noopener noreferrer"><img src="/Resources/socialmedia_icons/icon_linkedin.svg" alt=""></a>
             </div>
 
+            <div class="social_icons">
+                <a href="https://www.instagram.com/dan3sh_/" target="_blank" rel="noopener noreferrer"><img
+                        src="/Resources/socialmedia_icons/icon_instagram.svg" alt=""></a>
+            </div>
+
+            <div class="social_icons">
+                <a href="https://twitter.com/dan3sh_" target="_blank" rel="noopener noreferrer"><img
+                        src="/Resources/socialmedia_icons/icon_twitter.svg" alt=""></a>
+            </div>
+
+            <div class="social_icons">
+                <a href="https://www.facebook.com/profile.php?id=100067027353072" target="_blank"
+                    rel="noopener noreferrer"><img src="/Resources/socialmedia_icons/icon_facebook.svg" alt=""></a>
+            </div>
+
+            <div class="social_icons">
+                <a href="https://www.snapchat.com/add/dan4sh" target="_blank" rel="noopener noreferrer"><img
+                        src="/Resources/socialmedia_icons/icon_snapchat.svg" alt=""></a>
+            </div>
+
+            <div class="social_icons">
+                <a href="https://github.com/dan7sh" target="_blank" rel="noopener noreferrer"><img
+                        src="/Resources/socialmedia_icons/icon_github.svg" alt=""></a>
+            </div>
+
+            <div class="social_icons">
+                <a href="https://www.twitch.tv/dan7sh_" target="_blank" rel="noopener noreferrer"><img
+                        src="/Resources/socialmedia_icons/icon_twitch.svg" alt=""></a>
+            </div>
+
+            <div class="social_icons">
+                <a href="https://discord.gg/H4Q4Tu8B8P" target="_blank" rel="noopener noreferrer"><img
+                        src="/Resources/socialmedia_icons/icon_discord.svg" alt=""></a>
+            </div>
+
+
+        </div>
+
+        <!--Footer Text-->
+
+        <div class="footer_text">
+            <p>made with <span class="footer_emoji">♥️</span>&nbsp; by Danish</p><br>
+            <p>Danish Ansari © 2021</p>
         </div>
 
     </footer>
 
-    <script src="/script.js"></script>
+
+    <!--Scripts-->
+
+    <!--PreLoader-->
+    <script>
+        var preloader = document.getElementById('preloader');
+
+        function myFunction() {
+            preloader.style.display = 'none';
+        }
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: false,
+            offset: 30,
+            duration: 400,
+        });
+    </script>
+
+    <!--Form Input Validation-->
+    <script type="text/javascript">
+        function validateName() {
+            var name = document.getElementById('name').value;
+            if (name.length == 0) {
+                alert("Name can't be blank");
+                return false;
+
+            }
+            if (!name.match(/^[a-zA-Z]{3,}(?: [a-zA-Z]+){0,2}$/)) {
+                alert("Please enter your correct name!"); //Validation Message
+                return false;
+            }
+            return true;
+        }
+
+        function validateEmail() {
+
+            var email = document.getElementById('email').value;
+            if (email.length == 0) {
+                alert("Email can't be blank!"); //Validation Message
+                return false;
+
+            }
+
+            if (!email.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
+                alert("Please enter a correct email address"); //Validation Message
+                return false;
+
+            }
+
+            return true;
+
+        }
+
+
+        function validateForm() {
+            if (!validateName() || !validateEmail()) {
+
+                alert("Form not submitted"); //Validation Message
+                return false;
+            } else {
+                submitted = true;
+                return true;
+            }
+        }
+    </script>
+
+    <script>
+        const scriptURL =
+            'https://script.google.com/macros/s/AKfycbz5L9uxeABUecJ0eWGyVwohOJ7BU0Vh1gcGnUwjmn65nlJ3faRLJdPBzSyv-WRrPI-O/exec'
+        const form = document.forms['google-sheet']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, {
+                    method: 'POST',
+                    body: new FormData(form)
+                })
+                .then(response => alert("Thanks for Contacting me! I Will Get Back to You soon!"))
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+    <script src="script.js"></script>
+
 
 </body>
 
