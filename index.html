@@ -6,11 +6,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index,follow">
+    <meta name="description" content="Danish (Student | Creative Enthusiast)">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://dan7sh.com/">
+    <meta property="og:title" content="Danish (Student | Creative Enthusiast)">
+    <meta property="og:description"
+        content="I’m Danish and I am currently a first year student at MPTSE Mumbai, pursuing Mechatronics Engineering. I make websites, games and music.">
 
     <title>Danish Ansari</title>
 
     <link rel="stylesheet" href="/style.css">
-    <link rel="icon" href="">
+    <link rel="icon" href="/Resources/icon.png">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
@@ -19,7 +26,20 @@
 
 </head>
 
-<body>
+<body onload="myFunction()">
+
+    <!--Loader Page-->
+
+    <div id="preloader">
+        <div class="gooey">
+            <span class="dot"></span>
+            <div class="dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
 
     <!--Header Section-->
 
@@ -328,7 +348,82 @@
 
     </footer>
 
+    <!--Scripts-->
+
+    <!--PreLoader-->
+    <script>
+        var preloader = document.getElementById('preloader');
+
+        function myFunction() {
+            preloader.style.display = 'none';
+        }
+    </script>
+
     <script src="/script.js"></script>
+
+    <!--Form Input Validation-->
+    <script type="text/javascript">
+        function validateName() {
+            var name = document.getElementById('name').value;
+            if (name.length == 0) {
+                alert("Name can't be blank");
+                return false;
+
+            }
+            if (!name.match(/^[a-zA-Z]{3,}(?: [a-zA-Z]+){0,2}$/)) {
+                alert("Please enter your correct name!"); //Validation Message
+                return false;
+            }
+            return true;
+        }
+
+        function validateEmail() {
+
+            var email = document.getElementById('email').value;
+            if (email.length == 0) {
+                alert("Email can't be blank!"); //Validation Message
+                return false;
+
+            }
+
+            if (!email.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
+                alert("Please enter a correct email address"); //Validation Message
+                return false;
+
+            }
+
+            return true;
+
+        }
+
+
+        function validateForm() {
+            if (!validateName() || !validateEmail()) {
+
+                alert("Form not submitted"); //Validation Message
+                return false;
+            } else {
+                submitted = true;
+                return true;
+            }
+        }
+    </script>
+
+    <script>
+        const scriptURL =
+            'https://script.google.com/macros/s/AKfycbz5L9uxeABUecJ0eWGyVwohOJ7BU0Vh1gcGnUwjmn65nlJ3faRLJdPBzSyv-WRrPI-O/exec'
+        const form = document.forms['google-sheet']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, {
+                    method: 'POST',
+                    body: new FormData(form)
+                })
+                .then(response => alert("Thanks for Contacting me... I Will Get Back to You soon!"))
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
 
 </body>
 
