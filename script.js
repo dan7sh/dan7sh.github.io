@@ -172,6 +172,15 @@ function initMap() {
               ]
             },
             {
+              "featureType": "road.highway",
+              "elementType": "geometry.stroke",
+              "stylers": [
+                {
+                  "visibility": "off"
+                }
+              ]
+            },
+            {
               "featureType": "road.highway.controlled_access",
               "elementType": "geometry",
               "stylers": [
