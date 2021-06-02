@@ -160,8 +160,7 @@
         const form = document.forms['google-sheet']
 
         form.addEventListener('submit', e => {
-            e.stopPropagation();
-            //e.preventDefault()
+            e.preventDefault()
             validateForm()    
         })
     </script>
