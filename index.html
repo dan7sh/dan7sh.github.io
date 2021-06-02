@@ -146,7 +146,12 @@
                 return false;
             } else {
                 submitted = true;
-                return true;
+                fetch(scriptURL, {
+                    method: 'POST',
+                    body: new FormData(form)
+                })
+                .then(response => alert("Thanks for Contacting me. I Will Get Back to You soon!"))
+                .catch(error => console.error('Error!', error.message))
             }
         }
     </script>
@@ -159,12 +164,7 @@
         form.addEventListener('submit', e => {
             e.preventDefault()
             validateForm()
-            fetch(scriptURL, {
-                    method: 'POST',
-                    body: new FormData(form)
-                })
-                .then(response => alert("Thanks for Contacting me. I Will Get Back to You soon!"))
-                .catch(error => console.error('Error!', error.message))
+            
         })
     </script>
 
