@@ -141,8 +141,6 @@
 
         function validateForm() {
             if (!validateEmail()) {
-
-                alert("Form not submitted"); //Validation Message
                 return false;
             } else {
                 submitted = true;
@@ -163,8 +161,7 @@
 
         form.addEventListener('submit', e => {
             e.preventDefault()
-            validateForm()
-            
+            validateForm()    
         })
     </script>
 
