@@ -142,10 +142,11 @@ header p span::before {
 .content {
     margin-top: 100px;
     text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     font-size: 20px;
     font-weight: 400;
+    line-height: 25px;
 }
 
 .about_text_danish {
@@ -245,6 +246,7 @@ input {
         width: 400px;
         font-size: 24px;
         font-weight: 400;
+        line-height: 35px;
     }
 
     .about_text_danish {
@@ -311,6 +313,7 @@ input {
         width: 400px;
         font-size: 24px;
         font-weight: 400;
+        line-height: 35px;
     }
 
     .about_text_danish {
@@ -378,6 +381,7 @@ input {
         width: 400px;
         font-size: 24px;
         font-weight: 400;
+        line-height: 35px;
     }
 
     .about_text_danish {
@@ -452,6 +456,7 @@ input {
         width: 450px;
         font-size: 28px;
         font-weight: 400;
+        line-height: 35px;
     }
 
     .about_text_danish {
@@ -531,6 +536,7 @@ input {
         width: 400px;
         font-size: 24px;
         font-weight: 400;
+        line-height: 35px;
     }
 
     .about_text_danish {
@@ -576,8 +582,8 @@ input {
         justify-content: center;
         word-wrap: break-word;
         text-align: center;
-        font-size: 72px;
-        margin-top: 50px;
+        font-size: 62px;
+        margin-top: 100px;
         font-weight: 400;
     }
 
@@ -591,42 +597,57 @@ input {
         top: 50%;
         left: 50%;
         transform: translate(-50%, 0%);
-        margin-top: 100px;
+        margin-top: 200px;
         text-align: center;
-        width: 400px;
-        font-size: 24px;
+        width: 450px;
+        font-size: 28px;
         font-weight: 400;
+        line-height: 40px;
     }
 
     .about_text_danish {
         font-family: 'Montserrat', sans-serif;
-        font-size: 40px;
+        font-size: 45px;
         font-weight: 500;
     }
 
+    .socials {
+        margin-top: 210px;
+    }
+
     .social_icon {
-        width: 50px;
-        height: 50px;
-        margin: 20px;
+        width: 70px;
+        height: 70px;
+        margin: 30px;
+    }
+
+    footer {
+        font-size: 24px;
+    }
+
+    label,
+    select,
+    [placeholder] {
+        font-size: 16px;
     }
 
     button {
         text-align: center;
         background-color: #238636;
         border-radius: 10px;
-        width: 50px;
-        height: 50px;
+        width: 70px;
+        height: 70px;
         border: none;
         font-family: 'Montserrat', sans-serif;
         color: #E4EAF0;
-        font-size: 10px;
+        font-size: 16px;
         margin-left: 10px;
     }
 
     input {
         padding: 10px;
         width: 524px;
-        height: 50px;
+        height: 70px;
         border: none;
         border-radius: 10px;
     }
