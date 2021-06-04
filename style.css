@@ -5,18 +5,18 @@
 }
 
 /*PreLoader*/
-#preloader{
+#preloader {
     position: fixed;
-      width: 100%;
-      height: 100vh;
-      background: #010309;
-      overflow-y: hidden;
-      overflow-x: hidden;
-      justify-content: center;
-      z-index: 999919;
-  }
-  
-  .gooey {
+    width: 100%;
+    height: 100vh;
+    background: #010309;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    justify-content: center;
+    z-index: 999919;
+}
+
+.gooey {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -26,8 +26,9 @@
     background: #010309;
     filter: contrast(20);
     z-index: 999919;
-  }
-  .gooey .dot {
+}
+
+.gooey .dot {
     position: absolute;
     width: 16px;
     height: 16px;
@@ -38,14 +39,16 @@
     border-radius: 50%;
     transform: translateX(0);
     animation: dot 2.8s infinite;
-  }
-  .gooey .dots {
+}
+
+.gooey .dots {
     transform: translateX(0);
     margin-top: 12px;
     margin-left: 31px;
     animation: dots 2.8s infinite;
-  }
-  .gooey .dots span {
+}
+
+.gooey .dots span {
     display: block;
     float: left;
     width: 16px;
@@ -54,48 +57,56 @@
     filter: blur(4px);
     background: #E4EAF0;
     border-radius: 50%;
-  }
-  @-moz-keyframes dot {
+}
+
+@-moz-keyframes dot {
     50% {
-      transform: translateX(96px);
+        transform: translateX(96px);
     }
-  }
-  @-webkit-keyframes dot {
+}
+
+@-webkit-keyframes dot {
     50% {
-      transform: translateX(96px);
+        transform: translateX(96px);
     }
-  }
-  @-o-keyframes dot {
+}
+
+@-o-keyframes dot {
     50% {
-      transform: translateX(96px);
+        transform: translateX(96px);
     }
-  }
-  @keyframes dot {
+}
+
+@keyframes dot {
     50% {
-      transform: translateX(96px);
+        transform: translateX(96px);
     }
-  }
-  @-moz-keyframes dots {
+}
+
+@-moz-keyframes dots {
     50% {
-      transform: translateX(-31px);
+        transform: translateX(-31px);
     }
-  }
-  @-webkit-keyframes dots {
+}
+
+@-webkit-keyframes dots {
     50% {
-      transform: translateX(-31px);
+        transform: translateX(-31px);
     }
-  }
-  @-o-keyframes dots {
+}
+
+@-o-keyframes dots {
     50% {
-      transform: translateX(-31px);
+        transform: translateX(-31px);
     }
-  }
-  @keyframes dots {
+}
+
+@keyframes dots {
     50% {
-      transform: translateX(-31px);
+        transform: translateX(-31px);
     }
-  }
-  
+}
+
 
 html,
 body {
@@ -167,6 +178,10 @@ header p span::before {
     width: 40px;
     height: 40px;
     margin: 10px;
+}
+
+.social_icon:hover {
+    filter: brightness(150%);
 }
 
 footer {
@@ -261,9 +276,10 @@ input {
         margin: 20px;
     }
 
-    .social_icon:hover{
+    .social_icon:hover {
         transform: scale(1.2);
-    }    
+        filter: brightness(150%);
+    }
 
     button {
         text-align: center;
@@ -332,9 +348,10 @@ input {
         margin: 20px;
     }
 
-    .social_icon:hover{
+    .social_icon:hover {
         transform: scale(1.2);
-    }    
+        filter: brightness(150%);
+    }
 
     button {
         text-align: center;
@@ -406,6 +423,10 @@ input {
         width: 50px;
         height: 50px;
         margin: 20px;
+    }
+
+    .social_icon:hover {
+        filter: brightness(150%);
     }
 
     footer {
@@ -481,6 +502,10 @@ input {
         width: 70px;
         height: 70px;
         margin: 30px;
+    }
+
+    .social_icon:hover {
+        filter: brightness(150%);
     }
 
     footer {
@@ -559,8 +584,9 @@ input {
         margin: 20px;
     }
 
-    .social_icon:hover{
+    .social_icon:hover {
         transform: scale(1.2);
+        filter: brightness(150%);
     }
 
     button {
@@ -633,8 +659,9 @@ input {
         margin: 30px;
     }
 
-    .social_icon:hover{
+    .social_icon:hover {
         transform: scale(1.2);
+        filter: brightness(150%);
     }
 
     footer {
