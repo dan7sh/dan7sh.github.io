@@ -261,6 +261,10 @@ input {
         margin: 20px;
     }
 
+    .social_icon:hover{
+        transform: scale(1.2);
+    }    
+
     button {
         text-align: center;
         background-color: #238636;
@@ -327,6 +331,10 @@ input {
         height: 50px;
         margin: 20px;
     }
+
+    .social_icon:hover{
+        transform: scale(1.2);
+    }    
 
     button {
         text-align: center;
@@ -551,6 +559,10 @@ input {
         margin: 20px;
     }
 
+    .social_icon:hover{
+        transform: scale(1.2);
+    }
+
     button {
         text-align: center;
         background-color: #238636;
@@ -619,6 +631,10 @@ input {
         width: 70px;
         height: 70px;
         margin: 30px;
+    }
+
+    .social_icon:hover{
+        transform: scale(1.2);
     }
 
     footer {
