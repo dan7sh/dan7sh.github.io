@@ -180,10 +180,6 @@ header p span::before {
     margin: 10px;
 }
 
-.social_icon:hover {
-    filter: brightness(150%);
-}
-
 footer {
     display: grid;
     justify-content: center;
@@ -425,10 +421,6 @@ input {
         margin: 20px;
     }
 
-    .social_icon:hover {
-        filter: brightness(150%);
-    }
-
     footer {
         margin-top: 170px;
         padding-bottom: 0px;
@@ -502,10 +494,6 @@ input {
         width: 70px;
         height: 70px;
         margin: 30px;
-    }
-
-    .social_icon:hover {
-        filter: brightness(150%);
     }
 
     footer {
