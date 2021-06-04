@@ -290,6 +290,11 @@ input {
         margin-left: 10px;
     }
 
+    button:hover {
+        transform: scale(1.2);
+        filter: brightness(150%);
+    }
+
     input {
         padding: 10px;
         width: 524px;
@@ -360,6 +365,11 @@ input {
         color: #E4EAF0;
         font-size: 10px;
         margin-left: 10px;
+    }
+
+    button:hover {
+        transform: scale(1.2);
+        filter: brightness(150%);
     }
 
     input {
@@ -590,6 +600,11 @@ input {
         margin-left: 10px;
     }
 
+    button:hover {
+        transform: scale(1.2);
+        filter: brightness(150%);
+    }
+
     input {
         padding: 10px;
         width: 524px;
@@ -673,6 +688,11 @@ input {
         color: #E4EAF0;
         font-size: 16px;
         margin-left: 10px;
+    }
+
+    button:hover {
+        transform: scale(1.2);
+        filter: brightness(150%);
     }
 
     input {
