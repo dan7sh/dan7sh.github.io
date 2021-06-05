@@ -340,7 +340,7 @@ nav.menu_btn {
 
 /*Media Queries*/
 
-/* ----------- NON Retina Screens ----------- */
+/* ----------- Big Screens ----------- */
 
 @media only screen and (min-width: 768px) {
 
@@ -433,6 +433,11 @@ nav.menu_btn {
         font-size: 8px;
         margin-left: 10px;
         cursor: pointer;
+    }
+
+    button:hover {
+        transform: scale(1.2);
+        filter: brightness(150%);
     }
 
     ::placeholder {
