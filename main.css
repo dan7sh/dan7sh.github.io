@@ -39,7 +39,6 @@ body {
     height: 16px;
     top: 12px;
     left: 15px;
-    filter: blur(4px);
     background: #0a85ae;
     border-radius: 50%;
     transform: translateX(0);
@@ -59,7 +58,6 @@ body {
     width: 16px;
     height: 16px;
     margin-left: 16px;
-    filter: blur(4px);
     background: #0a85ae;
     border-radius: 50%;
 }
@@ -137,7 +135,7 @@ img {
 /*Trial*/
 .bg {
     animation: slide 3s ease-in-out infinite alternate;
-    background-image: linear-gradient(-60deg, #FFFFFF 50%, #f5f5f5 50%);
+    background-image: linear-gradient(-60deg, #FFFFFF 50%, rgb(233, 233, 233) 50%);
     bottom: 0;
     left: -50%;
     opacity: .5;
@@ -179,7 +177,7 @@ header {
     margin-top: 20px;
     font-size: 36px;
     color: #E6E8E6;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .header_title span::before {
