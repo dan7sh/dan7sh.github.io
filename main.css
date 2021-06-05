@@ -304,6 +304,7 @@ footer {
     right: 20px;
     top: 30px;
     width: 30px;
+    cursor: pointer;
 }
 
 .nav_close {
@@ -312,6 +313,7 @@ footer {
     right: 20px;
     top: 30px;
     width: 30px;
+    cursor: pointer;
 }
 
 .social_nav {
