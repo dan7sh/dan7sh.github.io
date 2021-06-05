@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,14 +14,14 @@
     <meta property="og:description"
         content="I’m Danish and I am currently a first year student at MPTSE Mumbai, pursuing Mechatronics Engineering. I make websites, games and music.">
 
-    <title>Danish Ansari</title>
-
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/main.css">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
+
+    <title>Danish Ansari</title>
 
     <link rel="icon" href="/Resources/icon.png">
 
@@ -43,69 +42,82 @@
         </div>
     </div>
 
-    <!--Header-->
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
 
     <header>
-        <p>Danish<span>Ansari</span></p>
+        <div class="header_black"></div>
+        <div class="header_title">
+            Danish<span>Ansari</span>
+        </div>
+        <div class="nav_icon">
+            <img id="mobile_cta" src="/Resources/nav_open.svg" class="nav_open" alt="">
+        </div>
+        <nav>
+            <div class="social">
+                <img id="mobile_exit" src="/Resources/nav_close.svg" class="nav_close" alt="">
+                <ul class="social_nav">
+                    <li><a href="https://www.instagram.com/dan7sh_/" target="_blank" rel="noopener noreferrer"><img
+                                src="/Resources/socialicons/instagram.svg" alt=""></a></li>
+                    <li><a href="https://github.com/dan7sh" target="_blank" rel="noopener noreferrer"><img
+                                src="/Resources/socialicons/github.svg" alt=""></a></li>
+                    <li><a href="https://www.linkedin.com/in/danish-ansari-1295691a6/" target="_blank"
+                            rel="noopener noreferrer"><img src="/Resources/socialicons/linkedin.svg" alt=""></a></li>
+                    <li><a href="https://twitter.com/dan3sh_" target="_blank" rel="noopener noreferrer"><img
+                                src="/Resources/socialicons/twitter.svg" alt=""></a></li>
+                    <li><a href="https://www.snapchat.com/add/dan4sh" target="_blank" rel="noopener noreferrer"><img
+                                src="/Resources/socialicons/snapchat.svg" alt=""></a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="header_image">
+            <img src="/Resources/profile_pic.svg" alt="Danish's pic">
+        </div>
     </header>
 
-    <!--Content-->
+    <main>
 
-    <div class="content">
-        I’m <span class="about_text_danish">danish</span>, a student pursuing Mechatronics Engineering in
-        NMIMS
-        Mumbai. I’m interested in Front-end Web Development, C++, Music, Videography and solving real world
-        problems using programming.
-    </div>
-
-    <!--Social Media-->
-
-    <div class="socials">
-
-        <div class="social_icon">
-            <a href="https://www.instagram.com/dan7sh_/" target="_blank" rel="noopener noreferrer">
-                <img src="/Resources/Social icons/instagram.svg" alt="">
-            </a>
-        </div>
-        <div class="social_icon">
-            <a href="https://github.com/dan7sh" target="_blank" rel="noopener noreferrer">
-                <img src="/Resources/Social icons/github.svg" alt="">
-            </a>
-        </div>
-        <div class="social_icon">
-            <a href="https://www.linkedin.com/in/danish-ansari-1295691a6/" target="_blank"
-                        rel="noopener noreferrer">
-                <img src="/Resources/Social icons/linkedin.svg" alt="">
-            </a>
-        </div>
-        <div class="social_icon">
-            <a href="https://twitter.com/dan3sh_" target="_blank" rel="noopener noreferrer">
-                <img src="/Resources/Social icons/twitter.svg" alt="">
-            </a>
-        </div>
-        <div class="social_icon">
-            <a href="https://www.snapchat.com/add/dan4sh" target="_blank" rel="noopener noreferrer">
-                <img src="/Resources/Social icons/snapchat.svg" alt="">
-            </a>
+        <div class="main_text">
+            <p>
+                I’m <span class="main_fancy_text">danish</span>, a student pursuing Mechatronics Engineering in NMIMS
+                Mumbai. I’m interested in front-end web development, UI Design, C++, Music and solving real world
+                problems using programming.
+            </p>
         </div>
 
-    </div>
+        <div class="social_notmobile">
+            <ul class="social_nav_notmobile">
+                <li><a href="https://www.instagram.com/dan7sh_/" target="_blank" rel="noopener noreferrer"><img
+                            src="/Resources/socialicons/instagram.svg" alt=""></a></li>
+                <li><a href="https://github.com/dan7sh" target="_blank" rel="noopener noreferrer"><img
+                            src="/Resources/socialicons/github.svg" alt=""></a></li>
+                <li><a href="https://www.linkedin.com/in/danish-ansari-1295691a6/" target="_blank"
+                        rel="noopener noreferrer"><img src="/Resources/socialicons/linkedin.svg" alt=""></a></li>
+                <li><a href="https://twitter.com/dan3sh_" target="_blank" rel="noopener noreferrer"><img
+                            src="/Resources/socialicons/twitter.svg" alt=""></a></li>
+                <li><a href="https://www.snapchat.com/add/dan4sh" target="_blank" rel="noopener noreferrer"><img
+                            src="/Resources/socialicons/snapchat.svg" alt=""></a></li>
+            </ul>
+        </div>
 
-    <!--Footer-->
+        <div class="email_address">
+            <p>Have an idea?</p>
+
+            <form method="post" autocomplete="off" name="google-sheet" onsubmit="return validateForm(); ">
+                <div class="field">
+                    <label for="email"></label>
+                    <input name="EMAIL" id="email" type="email" class="form-control" placeholder="Email Address"
+                        value="" required>
+                </div>
+                <button type="submit" name="submit" class="btnSubmit" value="SUBMIT">SEND</button>
+            </form>
+        </div>
+
+    </main>
 
     <footer>
-
-        <p>Have an idea?</p>
-
-        <form method="post" autocomplete="off" name="google-sheet" onsubmit="return validateForm(); ">
-            <div class="field">
-                <label for="email"></label>
-                <input name="EMAIL" id="email" type="email" class="form-control" placeholder="Email Address" value=""
-                    required>
-            </div>
-            <button type="submit" name="submit" class="btnSubmit" value="SUBMIT">SEND</button>
-        </form>
-
+        <p>Copyright © Danish Ansari 2021</p>
     </footer>
 
     <!--PreLoader-->
@@ -116,6 +128,24 @@
             preloader.style.display = 'none';
         }
     </script>
+
+    <!--Mobile Menu Navigation-->
+
+    <script>
+        const mobileBtn = document.getElementById('mobile_cta');
+        const nav = document.querySelector('nav');
+        const mobileBtnExit = document.getElementById('mobile_exit');
+
+        mobileBtn.addEventListener('click', () => {
+            nav.classList.add('menu_btn');
+        })
+
+        mobileBtnExit.addEventListener('click', () => {
+            nav.classList.remove('menu_btn');
+        })
+    </script>
+
+    <!--Form Bullshit-->
 
     <!--Form Input Validation-->
     <script type="text/javascript">
@@ -145,11 +175,11 @@
             } else {
                 submitted = true;
                 fetch(scriptURL, {
-                    method: 'POST',
-                    body: new FormData(form)
-                })
-                .then(response => alert("Thanks for Contacting me. I Will Get Back to You soon!"))
-                .catch(error => console.error('Error!', error.message))
+                        method: 'POST',
+                        body: new FormData(form)
+                    })
+                    .then(response => alert("Thanks for Contacting me. I Will Get Back to You soon!"))
+                    .catch(error => console.error('Error!', error.message))
             }
         }
     </script>
@@ -161,10 +191,9 @@
 
         form.addEventListener('submit', e => {
             e.preventDefault()
-            validateForm()    
+            validateForm()
         })
     </script>
-
 
 </body>
 
