@@ -254,6 +254,7 @@ select,
 }*/
 
 ::placeholder {
+    font-size: 10px;
     color: #fff;
     opacity: 1;
 }
