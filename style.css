@@ -217,6 +217,11 @@ input {
     opacity: 1;
 }
 
+input[type=email]:focus {
+    background-color: #eee;
+}
+
+
 /*Media Queries*/
 
 /* ----------- Big Screens (768) ----------- */
