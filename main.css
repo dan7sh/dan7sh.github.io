@@ -176,7 +176,7 @@ body {
 }
 
 .dan-highlight {
-    font-size: 60px;
+    font-size: 30px;
     font-family: 'Montserrat';
     font-weight: 400;
 }
@@ -190,7 +190,7 @@ body {
 }
 
 #typewriter {
-    font-size: 40px;
+    font-size: 16px;
     font-weight: 300;
     font-family: 'Quicksand';
     position: fixed;
@@ -218,8 +218,8 @@ body {
 }
 
 .socials img {
-    margin: 20px;
-    width: 100px;
+    margin: 10px;
+    width: 40px;
 }
 
 @-webkit-keyframes blink {
