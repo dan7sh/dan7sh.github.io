@@ -54,7 +54,7 @@
 
     <div class="content">
         I’m <span class="about_text_danish">danish</span>, a student pursuing Mechatronics Engineering in
-        NMIMS Mumbai. I’m interested in front-end web development, UI Design, C++, Machine Learning and solving real
+        NMIMS Mumbai. I’m interested in Front-End Web Development, UI Design, C++, Machine Learning and solving real
         world problems using programming.
     </div>
 
@@ -73,8 +73,7 @@
             </a>
         </div>
         <div class="social_icon">
-            <a href="www.linkedin.com/in/dan7sh" target="_blank"
-                        rel="noopener noreferrer">
+            <a href="www.linkedin.com/in/dan7sh" target="_blank" rel="noopener noreferrer">
                 <img src="/Resources/Social icons/linkedin.svg" alt="">
             </a>
         </div>
@@ -155,11 +154,11 @@
             } else {
                 submitted = true;
                 fetch(scriptURL, {
-                    method: 'POST',
-                    body: new FormData(form)
-                })
-                .then(response => alert("Thanks for Contacting me. I Will Get Back to You soon!"))
-                .catch(error => console.error('Error!', error.message))
+                        method: 'POST',
+                        body: new FormData(form)
+                    })
+                    .then(response => alert("Thanks for Contacting me. I Will Get Back to You soon!"))
+                    .catch(error => console.error('Error!', error.message))
             }
         }
     </script>
@@ -171,7 +170,7 @@
 
         form.addEventListener('submit', e => {
             e.preventDefault()
-            validateForm()    
+            validateForm()
         })
     </script>
 
