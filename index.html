@@ -1,8 +1,7 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,28 +9,25 @@
     <meta name="robots" content="index,follow">
     <meta name="description" content="Danish (Student | Creative Enthusiast)">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="http://dan7sh.com/">
+    <meta property="og:url" content="http://danishansari.dev/">
     <meta property="og:title" content="Danish (Student | Creative Enthusiast)">
     <meta property="og:description"
         content="I’m Danish and I am currently a first year student at MPTSE Mumbai, pursuing Mechatronics Engineering. I make websites, games and music.">
 
     <title>Danish Ansari</title>
 
-    <link rel="stylesheet" href="/style.css">
-
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
 
+    <link rel="stylesheet" href="/main.css">
+
     <link rel="icon" href="/Resources/icon.png">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
 
 <body onload="myFunction()">
-
-    <!--Loader Page-->
 
     <div id="preloader">
         <div class="gooey">
@@ -44,71 +40,35 @@
         </div>
     </div>
 
-    <!--Header-->
+    <pre id="typewriter">
+Hi, I'm <span class="dan-highlight">danish</span>
+a student in <span class="var-highlight">Mechatronics Engineering</span>
+based in <span class="var-highlight">Mumbai</span>
 
-    <header data-aos="zoom-in">
-        <p>Danish<span>Ansari</span></p>
-    </header>
+I'm interested in : 
+    [<span class="string-highlight">Front-End Web Development</span>,
+     <span class="string-highlight">UI Design</span>,
+     <span class="string-highlight">C++</span>,
+     <span class="string-highlight">Machine Learning</span>,
+     <span class="string-highlight">and solving real world problems</span>
+     <span class="string-highlight">using programming</span>]
+</pre>
 
-    <!--Content-->
-
-    <div class="content">
-        I’m <span class="about_text_danish">danish</span>, a student pursuing Mechatronics Engineering in
-        NMIMS Mumbai. I’m interested in Front-End Web Development, UI Design, C++, Machine Learning and solving real
-        world problems using programming.
+    <div class="socials">
+        <a href="https://www.instagram.com/dan7sh_/" target="_blank" rel="noopener noreferrer"><img
+                src="/Resources/Social icons/instagram.svg" alt=""></a>
+        <a href="https://github.com/dan7sh" target="_blank" rel="noopener noreferrer"><img
+                src="/Resources/Social icons/github.svg" alt=""></a>
+        <a href="www.linkedin.com/in/dan7sh" target="_blank" rel="noopener noreferrer"><img
+                src="/Resources/Social icons/linkedin.svg" alt=""></a>
+        <a href="https://twitter.com/dan7sh_" target="_blank" rel="noopener noreferrer"><img
+                src="/Resources/Social icons/twitter.svg" alt=""></a>
+        <a href="https://www.snapchat.com/add/dan4sh" target="_blank" rel="noopener noreferrer"><img
+                src="/Resources/Social icons/snapchat.svg" alt=""></a>
     </div>
 
-    <!--Social Media-->
+    <script src="/main.js"></script>
 
-    <div class="socials" data-aos="flip-up">
-
-        <div class="social_icon">
-            <a href="https://www.instagram.com/dan7sh_/" target="_blank" rel="noopener noreferrer">
-                <img src="/Resources/Social icons/instagram.svg" alt="">
-            </a>
-        </div>
-        <div class="social_icon">
-            <a href="https://github.com/dan7sh" target="_blank" rel="noopener noreferrer">
-                <img src="/Resources/Social icons/github.svg" alt="">
-            </a>
-        </div>
-        <div class="social_icon">
-            <a href="www.linkedin.com/in/dan7sh" target="_blank" rel="noopener noreferrer">
-                <img src="/Resources/Social icons/linkedin.svg" alt="">
-            </a>
-        </div>
-        <div class="social_icon">
-            <a href="https://twitter.com/dan7sh_" target="_blank" rel="noopener noreferrer">
-                <img src="/Resources/Social icons/twitter.svg" alt="">
-            </a>
-        </div>
-        <div class="social_icon">
-            <a href="https://www.snapchat.com/add/dan4sh" target="_blank" rel="noopener noreferrer">
-                <img src="/Resources/Social icons/snapchat.svg" alt="">
-            </a>
-        </div>
-
-    </div>
-
-    <!--Footer-->
-
-    <footer>
-
-        <p data-aos="zoom-out">Have an idea?</p>
-
-        <form method="post" autocomplete="off" name="google-sheet" onsubmit="return validateForm(); "
-            data-aos="zoom-out">
-            <div class="field">
-                <label for="email"></label>
-                <input name="EMAIL" id="email" type="email" class="form-control" placeholder="Email Address" value=""
-                    required>
-            </div>
-            <button type="submit" name="submit" class="btnSubmit" value="SUBMIT">SEND</button>
-        </form>
-
-    </footer>
-
-    <!--PreLoader-->
     <script>
         var preloader = document.getElementById('preloader');
 
@@ -116,64 +76,6 @@
             preloader.style.display = 'none';
         }
     </script>
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init({
-            offset: 10,
-            once: true,
-            duration: 400,
-        });
-    </script>
-
-    <!--Form Input Validation-->
-    <script type="text/javascript">
-        function validateEmail() {
-
-            var email = document.getElementById('email').value;
-            if (email.length == 0) {
-                alert("Email can't be blank!"); //Validation Message
-                return false;
-
-            }
-
-            if (!email.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
-                alert("Please enter a correct email address"); //Validation Message
-                return false;
-
-            }
-
-            return true;
-
-        }
-
-
-        function validateForm() {
-            if (!validateEmail()) {
-                return false;
-            } else {
-                submitted = true;
-                fetch(scriptURL, {
-                        method: 'POST',
-                        body: new FormData(form)
-                    })
-                    .then(response => alert("Thanks for Contacting me. I Will Get Back to You soon!"))
-                    .catch(error => console.error('Error!', error.message))
-            }
-        }
-    </script>
-
-    <script>
-        const scriptURL =
-            'https://script.google.com/macros/s/AKfycbz5L9uxeABUecJ0eWGyVwohOJ7BU0Vh1gcGnUwjmn65nlJ3faRLJdPBzSyv-WRrPI-O/exec'
-        const form = document.forms['google-sheet']
-
-        form.addEventListener('submit', e => {
-            e.preventDefault()
-            validateForm()
-        })
-    </script>
-
 
 </body>
 
