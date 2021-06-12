@@ -139,7 +139,7 @@ html,body{
     font-weight: 300;
     font-family: 'Quicksand';
     position: fixed;
-    top: 25%;
+    top: 15%;
 }
 
 #typewriter:after {
@@ -162,7 +162,7 @@ html,body{
 
 .socials img {
     margin: 10px;
-    width: 40px;
+    width: 30px;
 }
 
 .footer{
@@ -230,7 +230,7 @@ html,body{
         font-family: 'Quicksand';
         position: fixed;
         left: 50%;
-        top: 25%;
+        top: 15%;
         transform: translate(-50%);
     }
 
@@ -243,7 +243,7 @@ html,body{
         position: fixed;
         left: 50%;
         transform: translate(-50%);
-        bottom: 60px;
+        bottom: 50px;
         padding: 30px;
         border-radius: 70px;
         display: flex;
@@ -254,7 +254,7 @@ html,body{
 
     .socials img {
         margin: 20px;
-        width: 50px;
+        width: 40px;
         cursor: pointer;
     }
 
@@ -264,8 +264,8 @@ html,body{
     }
 
     .footer {
-        font-size: 16px;
-        bottom: 40px;
+        font-size: 14px;
+        bottom: 45px;
         font-weight: 300;
     }
 
@@ -296,7 +296,7 @@ html,body{
         font-family: 'Quicksand';
         position: fixed;
         left: 50%;
-        top: 25%;
+        top: 15%;
         transform: translate(-50%);
     }
 
@@ -309,7 +309,7 @@ html,body{
         position: fixed;
         left: 50%;
         transform: translate(-50%);
-        bottom: 60px;
+        bottom: 50px;
         padding: 30px;
         border-radius: 70px;
         display: flex;
@@ -320,7 +320,7 @@ html,body{
 
     .socials img {
         margin: 20px;
-        width: 50px;
+        width: 40px;
         cursor: pointer;
     }
 
@@ -330,8 +330,8 @@ html,body{
     }
 
     .footer {
-        font-size: 16px;
-        bottom: 40px;
+        font-size: 14px;
+        bottom: 45px;
         font-weight: 300;
     }
 
