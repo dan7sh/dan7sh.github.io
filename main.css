@@ -112,67 +112,7 @@ body {
 }
 
 body {
-    background: linear-gradient(230deg, #ffffff, #e1e1e1, #c3c3c3, #e8e8e8);
-    -webkit-animation: bg_anim 9s ease infinite;
-    -moz-animation: bg_anim 9s ease infinite;
-    -o-animation: bg_anim 9s ease infinite;
-    animation: bg_anim 9s ease infinite;
-}
-
-@-webkit-keyframes bg_anim {
-    0% {
-        background-position: 0% 99%
-    }
-
-    50% {
-        background-position: 100% 2%
-    }
-
-    100% {
-        background-position: 0% 99%
-    }
-}
-
-@-moz-keyframes bg_anim {
-    0% {
-        background-position: 0% 99%
-    }
-
-    50% {
-        background-position: 100% 2%
-    }
-
-    100% {
-        background-position: 0% 99%
-    }
-}
-
-@-o-keyframes bg_anim {
-    0% {
-        background-position: 0% 99%
-    }
-
-    50% {
-        background-position: 100% 2%
-    }
-
-    100% {
-        background-position: 0% 99%
-    }
-}
-
-@keyframes bg_anim {
-    0% {
-        background-position: 0% 99%
-    }
-
-    50% {
-        background-position: 100% 2%
-    }
-
-    100% {
-        background-position: 0% 99%
-    }
+    background: linear-gradient(#ffffff, #e1e1e1, #c3c3c3, #e8e8e8);
 }
 
 .dan-highlight {
