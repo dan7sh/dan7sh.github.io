@@ -211,7 +211,7 @@ html,body{
     position: fixed;
     left: 50%;
     transform: translate(-50%);
-    bottom: 40px;
+    bottom: 60px;
     padding: 30px;
     border-radius: 70px;
     display: flex;
@@ -223,6 +223,15 @@ html,body{
 .socials img {
     margin: 10px;
     width: 40px;
+}
+
+.footer{
+    font-size: 12px;
+    font-family: 'Montserrat';
+    position: fixed;
+    bottom: 40px;
+    color: #181818;
+    font-weight: 300;
 }
 
 @-webkit-keyframes blink {
@@ -294,7 +303,7 @@ html,body{
         position: fixed;
         left: 50%;
         transform: translate(-50%);
-        bottom: 40px;
+        bottom: 60px;
         padding: 30px;
         border-radius: 70px;
         display: flex;
@@ -313,6 +322,14 @@ html,body{
         transform: scale(1.4);
         filter: brightness(150%);
     }
+
+    .footer {
+        font-size: 16px;
+        bottom: 40px;
+        font-weight: 300;
+    }
+
+    
 
 }
 
@@ -352,7 +369,7 @@ html,body{
         position: fixed;
         left: 50%;
         transform: translate(-50%);
-        bottom: 40px;
+        bottom: 60px;
         padding: 30px;
         border-radius: 70px;
         display: flex;
@@ -370,6 +387,12 @@ html,body{
     .socials img:hover {
         transform: scale(1.4);
         filter: brightness(150%);
+    }
+
+    .footer {
+        font-size: 16px;
+        bottom: 40px;
+        font-weight: 300;
     }
 
 }
@@ -408,7 +431,7 @@ html,body{
         position: fixed;
         left: 50%;
         transform: translate(-50%);
-        bottom: 40px;
+        bottom: 60px;
         padding: 30px;
         border-radius: 70px;
         display: flex;
@@ -426,6 +449,12 @@ html,body{
     .socials img:hover {
         transform: scale(1.4);
         filter: brightness(150%);
+    }
+
+    .footer {
+        font-size: 16px;
+        bottom: 40px;
+        font-weight: 300;
     }
 
 }
@@ -464,7 +493,7 @@ html,body{
         position: fixed;
         left: 50%;
         transform: translate(-50%);
-        bottom: 40px;
+        bottom: 50px;
         padding: 30px;
         border-radius: 70px;
         display: flex;
@@ -482,6 +511,12 @@ html,body{
     .socials img:hover {
         transform: scale(1.4);
         filter: brightness(150%);
+    }
+
+    .footer {
+        font-size: 16px;
+        bottom: 40px;
+        font-weight: 300;
     }
 
 }
@@ -502,7 +537,7 @@ html,body{
     }
 
     #typewriter {
-        font-size: 35px;
+        font-size: 26px;
         font-weight: 300;
         font-family: 'Quicksand';
         position: fixed;
@@ -520,7 +555,7 @@ html,body{
         position: fixed;
         left: 50%;
         transform: translate(-50%);
-        bottom: 40px;
+        bottom: 100px;
         padding: 30px;
         border-radius: 70px;
         display: flex;
@@ -533,6 +568,12 @@ html,body{
         margin: 20px;
         width: 75px;
         cursor: pointer;
+    }
+
+    .footer {
+        font-size: 22px;
+        bottom: 70px;
+        font-weight: 300;
     }
 
 }
@@ -553,7 +594,7 @@ html,body{
     }
 
     #typewriter {
-        font-size: 30px;
+        font-size: 22px;
         font-weight: 300;
         font-family: 'Quicksand';
         position: fixed;
@@ -571,7 +612,7 @@ html,body{
         position: fixed;
         left: 50%;
         transform: translate(-50%);
-        bottom: 40px;
+        bottom: 100px;
         padding: 30px;
         border-radius: 70px;
         display: flex;
@@ -582,8 +623,14 @@ html,body{
 
     .socials img {
         margin: 20px;
-        width: 75px;
+        width: 55px;
         cursor: pointer;
+    }
+
+    .footer {
+        font-size: 18px;
+        bottom: 70px;
+        font-weight: 300;
     }
 
 }
