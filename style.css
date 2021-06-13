@@ -138,6 +138,10 @@ body {
     border-radius: 8px;
 }
 
+.button{
+    cursor: not-allowed;
+}
+
 .terminal_window header .button.green {
     background: #30ca41;
 }
@@ -159,6 +163,7 @@ body {
     top: 8px;
     left: 50%;
     transform: translate(-50%);
+    cursor: help;
 }
 
 .terminal_window section.terminal {
@@ -178,6 +183,7 @@ body {
         monospace;
     font-size: 11px;
     font-weight: 200;
+    cursor: crosshair;
 }
 
 #typewriter:after {
@@ -251,6 +257,7 @@ body {
 .socials img {
     margin: 10px;
     width: 30px;
+    cursor: alias;
 }
 
 footer {
@@ -262,6 +269,7 @@ footer {
     font-family: 'Montserrat';
     font-size: 12px;
     font-weight: 200;
+    cursor: no-drop;
 }
 
 .code_symbol{
@@ -292,6 +300,11 @@ footer {
         height: 12px;
         margin: 10px 4px 0 0;
         border-radius: 8px;
+    }
+
+    .button:hover {
+        transform: scale(1.4);
+        filter: brightness(150%);
     }
 
     .header_text {
