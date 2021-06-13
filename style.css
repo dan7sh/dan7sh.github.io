@@ -264,6 +264,10 @@ footer {
     font-weight: 200;
 }
 
+.code_symbol{
+    font-weight: 400;
+}
+
 /*Media Queries*/
 
 /*Big Screens*/
