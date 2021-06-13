@@ -138,7 +138,7 @@ body {
     border-radius: 8px;
 }
 
-.button{
+.button {
     cursor: not-allowed;
 }
 
@@ -272,9 +272,46 @@ footer {
     cursor: no-drop;
 }
 
-.code_symbol{
+.code_symbol {
     font-weight: 400;
 }
+
+ul li {
+    list-style-type: none;
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    font-size: 30px;
+    color: #000000;
+    animation: music 1s ease-in-out both infinite;
+    cursor: alias;
+}
+
+
+@keyframes music {
+
+    0%,
+    100% {
+        -webkit-transform: translate3d(0, -3px, 0);
+    }
+
+    50% {
+        -webkit-transform: translate3d(0, 3px, 0);
+    }
+}
+
+@-webkit-keyframes music {
+
+    0%,
+    100% {
+        -webkit-transform: translate3d(0, -3px, 0);
+    }
+
+    50% {
+        -webkit-transform: translate3d(0, 3px, 0);
+    }
+}
+
 
 /*Media Queries*/
 
@@ -362,6 +399,12 @@ footer {
         font-weight: 200;
     }
 
+    ul li {
+        top: 20px;
+        right: 30px;
+        font-size: 40px;
+    }
+
 }
 
 /*Tablets*/
@@ -438,6 +481,12 @@ footer {
         font-weight: 200;
     }
 
+    ul li {
+        top: 20px;
+        right: 30px;
+        font-size: 40px;
+    }
+
 }
 
 @media only screen and (orientation : portrait) and (-webkit-min-device-pixel-ratio: 1) and (min-device-width : 1024px) and (max-device-width : 1366px) {
@@ -510,6 +559,12 @@ footer {
         top: 90%;
         font-size: 18px;
         font-weight: 200;
+    }
+
+    ul li {
+        top: 20px;
+        right: 30px;
+        font-size: 60px;
     }
 
 }
