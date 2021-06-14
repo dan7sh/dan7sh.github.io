@@ -268,7 +268,7 @@ footer {
     font-family: 'Montserrat';
     font-size: 12px;
     font-weight: 200;
-    cursor: no-drop;
+    cursor: help;
 }
 
 .code_symbol {
