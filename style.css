@@ -276,43 +276,6 @@ footer {
     font-weight: 400;
 }
 
-ul li {
-    list-style-type: none;
-    position: absolute;
-    top: 10px;
-    right: 20px;
-    font-size: 30px;
-    color: #000000;
-    animation: music 1s ease-in-out both infinite;
-    cursor: alias;
-}
-
-
-@keyframes music {
-
-    0%,
-    100% {
-        -webkit-transform: translate3d(0, -3px, 0);
-    }
-
-    50% {
-        -webkit-transform: translate3d(0, 3px, 0);
-    }
-}
-
-@-webkit-keyframes music {
-
-    0%,
-    100% {
-        -webkit-transform: translate3d(0, -3px, 0);
-    }
-
-    50% {
-        -webkit-transform: translate3d(0, 3px, 0);
-    }
-}
-
-
 /*Media Queries*/
 
 /*Big Screens*/
