@@ -114,7 +114,7 @@ body {
 }
 
 .terminal_window {
-    top: 37%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 320px;
@@ -248,7 +248,7 @@ body {
 
 .socials {
     position: absolute;
-    top: 70%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%);
     padding: 30px;
@@ -266,7 +266,7 @@ body {
 
 footer {
     position: absolute;
-    top: 88%;
+    top: 85%;
     left: 50%;
     transform: translate(-50%);
     text-align: center;
