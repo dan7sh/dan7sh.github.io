@@ -179,10 +179,10 @@ body {
 }
 
 #typewriter {
-    font-family: 'Source Code Pro',
-        monospace;
+    font-family: 'Roboto Mono',
+    monospace;
     font-size: 11px;
-    font-weight: 200;
+    font-weight: 100;
     cursor: crosshair;
 }
 
@@ -197,19 +197,23 @@ body {
 }
 
 .dan_highlight {
-    font-family: 'Montserrat';
+    font-family: 'Quicksand',
+    monospace;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 300;
+    margin-left: 2px;
 }
 
 .about_highlight {
-    font-family: 'Quicksand';
-    font-weight: 400;
+    font-family: 'Roboto Mono',
+    monospace;
+    font-weight: 300;
 }
 
 .skill_highlight {
-    font-family: 'Quicksand';
-    font-weight: 400;
+    font-family: 'Roboto Mono',
+    monospace;
+    font-weight: 300;
 }
 
 @-webkit-keyframes blink {
@@ -285,7 +289,7 @@ footer {
     .terminal_window {
         top: 35%;
         width: 520px;
-        height: 380px;
+        height: 340px;
         border-radius: 10px;
     }
 
@@ -321,7 +325,7 @@ footer {
 
     #typewriter {
         font-size: 15px;
-        font-weight: 200;
+        font-weight: 100;
     }
 
     .dollar {
@@ -329,8 +333,8 @@ footer {
     }
 
     .dan_highlight {
-        font-size: 16px;
-        font-weight: 500;
+        font-size: 28px;
+        font-weight: 400;
     }
 
     .about_highlight {
@@ -408,7 +412,7 @@ footer {
 
     #typewriter {
         font-size: 15px;
-        font-weight: 200;
+        font-weight: 100;
     }
 
     .dollar {
@@ -417,7 +421,7 @@ footer {
 
     .dan_highlight {
         font-size: 16px;
-        font-weight: 500;
+        font-weight: 400;
     }
 
     .about_highlight {
@@ -488,7 +492,7 @@ footer {
 
     #typewriter {
         font-size: 18px;
-        font-weight: 200;
+        font-weight: 100;
     }
 
     .dollar {
@@ -497,7 +501,7 @@ footer {
 
     .dan_highlight {
         font-size: 24px;
-        font-weight: 500;
+        font-weight: 400;
     }
 
     .about_highlight {
