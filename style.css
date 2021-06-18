@@ -155,7 +155,8 @@ body {
 }
 
 .header_text {
-    font-family: 'Source code pro';
+    font-family: 'Roboto Mono',
+    monospace;
     opacity: 0.6;
     font-size: 8px;
     position: fixed;
