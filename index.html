@@ -1,11 +1,10 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <meta name="robots" content="index,follow">
     <meta name="description" content="Danish (Student | Creative Enthusiast)">
     <meta property="og:type" content="website">
@@ -14,23 +13,20 @@
     <meta property="og:description"
         content="I’m Danish and I am currently a first year student at MPTSE Mumbai, pursuing Mechatronics Engineering. I make websites, games and music.">
 
-    <title>Danish Ansari</title>
-
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&display=swap"
-        rel="stylesheet">
-
-    <link rel="stylesheet" href="/main.css">
-
     <link rel="icon" href="/Resources/icon.png">
 
+    <title>Danish Ansari</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="/style.css">
 </head>
 
-<body onload="myFunction()">
+<body onload="loader()">
 
     <div id="preloader">
         <div class="gooey">
@@ -43,11 +39,28 @@
         </div>
     </div>
 
-    <pre id="typewriter">
-Hi, I'm <span class="dan-highlight">danish</span>
-a student in <span class="string-highlight">Mechatronics Engineering</span>
-based in <span class="string-highlight">Mumbai</span>
+    <header>
+        <div class="profile">
+            <img src="/Resources/Danish.svg" alt="">
+        </div>
+        <div class="header_text">
+            <p>Danish<span>Ansari</span></p>
+        </div>
+    </header>
 
+    <div class="description">
+        <div class="mini_1">
+            <a
+                href="https://www.google.com/maps/place/Mumbai,+Maharashtra/@19.0821978,72.7410983,11z/data=!3m1!4b1!4m5!3m4!1s0x3be7c6306644edc1:0x5da4ed8f8d648c69!8m2!3d19.0759837!4d72.8776559">📍
+                Mumbai</a>
+        </div>
+        <div class="mini_2">
+            <a href="https://engineering.nmims.edu/">📚 Mechatronics (NMIMS '24)</a>
+        </div>
+    </div>
+
+    <div class="type_center">
+        <pre id="typewriter">
 I'm interested in : 
    [ <span class="string-highlight">Front-End Web Development</span>,
      <span class="string-highlight">UI Design</span>,
@@ -56,31 +69,32 @@ I'm interested in :
      <span class="string-highlight">and solving real world problems</span>
      <span class="string-highlight">using programming</span> ]
 </pre>
+    </div>
 
     <div class="socials">
         <a href="https://www.instagram.com/dan7sh_/" target="blank" rel="noopener noreferrer"><img
-                src="/Resources/Social icons/instagram.svg" alt=""></a>
+                src="/Resources/Social_icons/instagram.svg" alt=""></a>
         <a href="https://github.com/dan7sh" target="blank" rel="noopener noreferrer"><img
-                src="/Resources/Social icons/github.svg" alt=""></a>
+                src="/Resources/Social_icons/github.svg" alt=""></a>
         <a href="https://www.linkedin.com/in/dan7sh/" target="blank" rel="noopener noreferrer"><img
-                src="/Resources/Social icons/linkedin.svg" alt=""></a>
+                src="/Resources/Social_icons/linkedin.svg" alt=""></a>
         <a href="https://twitter.com/dan7sh_" target="blank" rel="noopener noreferrer"><img
-                src="/Resources/Social icons/twitter.svg" alt=""></a>
+                src="/Resources/Social_icons/twitter.svg" alt=""></a>
         <a href="https://www.snapchat.com/add/dan4sh" target="blank" rel="noopener noreferrer"><img
-                src="/Resources/Social icons/snapchat.svg" alt=""></a>
+                src="/Resources/Social_icons/snapchat.svg" alt=""></a>
     </div>
 
-    <div class="footer">
-        	<span class="code_symbol">&#60; / &#62;</span> &nbsp;with &nbsp;🖤 &nbsp;by&nbsp; <span
-        	    class="footer_dan">DANISH</span>
-    </div>
+    <footer>
+        <span class="code_symbol"> &#60; / &#62;</span> &nbsp; with &nbsp;❤️ &nbsp; by &nbsp; <span
+            class="footer_dan">DANISH</span>
+    </footer>
 
-    <script src="/main.js"></script>
+    <script src="/script.js"></script>
 
     <script>
         var preloader = document.getElementById('preloader');
 
-        function myFunction() {
+        function loader() {
             preloader.style.display = 'none';
         }
     </script>
