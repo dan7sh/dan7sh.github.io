@@ -214,7 +214,7 @@ header p span::before {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    padding-top: 100px;
+    padding-top: 150px;
 }
 
 .socials img {
