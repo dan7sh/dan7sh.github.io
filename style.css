@@ -348,6 +348,16 @@ footer {
         padding-bottom: 60px;
     }
 
+    .code_symbol:hover {
+        transform: scale(1.2);
+        filter: brightness(150%);
+    }
+
+    .heart_symbol:hover {
+        transform: scale(1.2);
+        filter: brightness(150%);
+    }
+
 }
 
 /*Tablets*/
